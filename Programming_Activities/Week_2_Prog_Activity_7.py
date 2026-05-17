@@ -1,0 +1,6 @@
+num = 1
+
+while num < 96:
+    if num % 5 == 0:
+        print(num)
+    num += 1
