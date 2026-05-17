@@ -11,7 +11,7 @@ print("\nThe smallest number is: ", minnum,"\nThe Largest Number is: ", maxnum)
 
 if maxnum % 2 == 0:
     print("The Range is: ")
-    for i in range(minnum,maxnum):
+    for i in range(maxnum):
         print(i, end=",")
 else:
     if minnum < 11:
