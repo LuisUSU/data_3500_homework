@@ -1,4 +1,4 @@
-user_number = 0
+#week 3 activity 1
 user_number = int(input("Enter a 3 digit number: "))
 first_number = user_number // 100
 second_number = user_number % 10
