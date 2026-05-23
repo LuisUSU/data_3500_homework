@@ -1,0 +1,6 @@
+#Week 3 Programming Activity 6
+def welcome_fctn(name,age,favorite_color):
+    age = str(age)
+    welcome_message = "Welcome " + name + " you are " + age + " years old and " + favorite_color + " is your favorite color"
+    return welcome_message
+print(welcome_fctn("Luis",33,"Blue"))
