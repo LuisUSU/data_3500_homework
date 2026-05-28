@@ -1,3 +1,4 @@
+#Week_2_Activity_1›
 apple_price = input("Enter the price of an apple: ")
 apple_price = eval(apple_price)
 number_purchased = input("Enter how many apples you purchased: ")

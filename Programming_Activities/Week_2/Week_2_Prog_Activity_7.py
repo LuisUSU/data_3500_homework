@@ -1,3 +1,4 @@
+#Week_2_Activity_7
 num = 1
 
 while num < 96:
