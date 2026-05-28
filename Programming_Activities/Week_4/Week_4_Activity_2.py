@@ -1,3 +1,4 @@
+#Week_4_Activity_2
 colors = ['Blue','Green','Teal']
 
 for i in colors:
