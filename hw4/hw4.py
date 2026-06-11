@@ -55,3 +55,8 @@ totalProfitPer = (totalProfit / buyNowFirstPrice) * 100
 print("First Buy Price:  ", buyNowFirstPrice)
 print("Total Profit:  ", totalProfit)
 print("Total Profit Percentage:  ", float(round(totalProfitPer,2)),"%")
+
+print(-13 // 4)
+numbers = [2, 3, 5, 7, 11, 13, 17, 19]
+numbers2 = numbers[2:6]
+print(numbers2)
