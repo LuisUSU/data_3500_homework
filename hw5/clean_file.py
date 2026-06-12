@@ -1,7 +1,6 @@
-with open("/workspaces/data_3500_homework/hw5/AAPL.txt", "r") as file:
-    content = file.read()
-
+file = open("/workspaces/data_3500_homework/hw5/NVDA.txt", "r")
+content = file.read()
 modified_content = content.replace(" ", "")
 
-with open("/workspaces/data_3500_homework/hw5/AAPL.txt", "w") as file:
-    file.write(modified_content)
+file = open("/workspaces/data_3500_homework/hw5/NVDA.txt", "w")
+file.write(modified_content)
