@@ -127,5 +127,7 @@ for fileName in fileNames:
     #save results into a new dictionary entry containing these 5 variables
     saveResults(stockIndexes,stockPrices,mrStockProfit,mrStockReturn,smaStockProfit,smaStockReturn)
 
+with open("results.json", "w") as file:
+    json.dump(results, file)
 
 #print(results)
