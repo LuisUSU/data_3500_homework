@@ -96,7 +96,7 @@ def saveResults(stockIndex,stockPrices,smaStockProfits,smaStockReturns,mrStockPr
 
     results.update(newResults)
     newResults.clear()
-    print(results, end="\n")
+    #print(results, end="\n")
     return results
 #adding data from .txt files into result ticker dictionary
 
@@ -127,7 +127,7 @@ for fileName in fileNames:
     #save results into a new dictionary entry containing these 5 variables
     saveResults(stockIndexes,stockPrices,mrStockProfit,mrStockReturn,smaStockProfit,smaStockReturn)
 
-with open("results.json", "w") as file:
-    json.dump(results, file)
+#with open("results.json", "w") as file: #sends dictioniary to JSON file
+    #json.dump(results, file)
 
 #print(results)
