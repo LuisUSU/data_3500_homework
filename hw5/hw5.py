@@ -52,8 +52,8 @@ def simpleMovingAverageStrategy(stockPrice,stockAve):
     else:
         pass
 
-    smaStockProfit = 0
-    smaStockReturn = 0
+    smaStockProfit = 0 #str(sma_stock_profit_algorithm_result_here)
+    smaStockReturn = 0 #str(sma_stock_return_algorithm_result_here)
 
     return smaStockProfit,smaStockReturn
 
@@ -77,8 +77,8 @@ def meanReversionStrategy(stockPrice):
         else:
             pass
 
-    mrStockProfit = 0
-    mrStockReturn = 0
+    mrStockProfit = 0 #str(mr_stock_profit_algorithm_result_here)
+    mrStockReturn = 0 #str(mr_stock_return_algorithm_result_here)
 
     return mrStockProfit, mrStockReturn
 
@@ -90,9 +90,9 @@ def saveResults(stockIndex,stockPrices,smaStockProfits,smaStockReturns,mrStockPr
     #adds new keys with the name of the stock the type of data and the data afterwards
     newResults.update(dict.fromkeys([str(f"{currentStockName}_prices")], stockPrices))
     newResults.update(dict.fromkeys([str(f"{currentStockName}_sma_profits")], smaStockProfits))
-    newResults.update(dict.fromkeys([str(f"{currentStockName}_sma_returns")], smaStockReturns))
+    newResults.update(dict.fromkeys([str(f"{currentStockName}_sma_returns")], smaStockReturns+"%"))
     newResults.update(dict.fromkeys([str(f"{currentStockName}_mr_profits")], mrStockProfits))
-    newResults.update(dict.fromkeys([str(f"{currentStockName}_mr_returns")], mrStockReturns))
+    newResults.update(dict.fromkeys([str(f"{currentStockName}_mr_returns")], mrStockReturns+"%"))
 
     results.update(newResults)
     newResults.clear()
@@ -127,7 +127,7 @@ for fileName in fileNames:
     #save results into a new dictionary entry containing these 5 variables
     saveResults(stockIndexes,stockPrices,mrStockProfit,mrStockReturn,smaStockProfit,smaStockReturn)
 
+#write results dictionary to json file after all loops and functions have been completed
+
 #with open("results.json", "w") as file: #sends dictioniary to JSON file
     #json.dump(results, file)
-
-#print(results)
