@@ -1,0 +1,2455 @@
+{
+    "data": [
+        {
+            "id": 24132,
+            "name": "Mega Charizard X ex",
+            "name_numbered": "Mega Charizard X ex 125",
+            "slug": "mega-charizard-x-ex",
+            "card_code_number": "PFL 125",
+            "type": "singles",
+            "card_number": 125,
+            "hp": 360,
+            "rarity": "Special Illustration Rare",
+            "supertype": "Pokémon",
+            "tcgid": "me2-125",
+            "cardmarket_id": 857700,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 833.48,
+                    "lowest_near_mint_EU_only": 879.98,
+                    "lowest_near_mint_DE": 600,
+                    "lowest_near_mint_DE_EU_only": 600,
+                    "lowest_near_mint_FR": 800,
+                    "lowest_near_mint_FR_EU_only": 800,
+                    "lowest_near_mint_ES": 569.99,
+                    "lowest_near_mint_ES_EU_only": 569.99,
+                    "lowest_near_mint_IT": 680,
+                    "lowest_near_mint_IT_EU_only": 680,
+                    "30d_average": 893.96,
+                    "7d_average": 883.04,
+                    "available_items": 407,
+                    "graded": {
+                        "psa": {
+                            "psa10": 1800,
+                            "psa9": 900
+                        },
+                        "bgs": {
+                            "bgs10pristine": 3750,
+                            "bgs10": 1750
+                        },
+                        "cgc": {
+                            "cgc10": 1790
+                        }
+                    }
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "10": {
+                                "median_price": 920.58,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 716.55,
+                                "sample_size": 5
+                            }
+                        },
+                        "bgs": {
+                            "10": {
+                                "median_price": 2877.43,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 687.43,
+                                "sample_size": 5
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 932.42,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 733.38,
+                                "sample_size": 5
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 1713.09,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 670.34,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 708.88,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 648.11,
+                                "sample_size": 2
+                            }
+                        },
+                        "sgc": {
+                            "10": {
+                                "median_price": 1355,
+                                "sample_size": 2
+                            }
+                        },
+                        "tag": {
+                            "10": {
+                                "median_price": 1787.57,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 759.72,
+                                "sample_size": 5
+                            }
+                        }
+                    }
+                }
+            },
+            "episode": {
+                "id": 231,
+                "name": "Phantasmal Flames",
+                "slug": "phantasmal-flames",
+                "released_at": "2025-11-14",
+                "logo": "https://images.tcggo.com/tcggo/storage/23782/Pokemon_TCG_Mega_Evolution%E2%80%94Phantasmal_Flames_Logo.png",
+                "code": "PFL",
+                "cards_total": 130,
+                "cards_printed_total": 94,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1327.54,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 444,
+                "name": "danciao",
+                "slug": "danciao"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/24114/mega-charizard-x-ex-pfl-125-phantasmal-flames.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/phantasmal-flames/mega-charizard-x-ex-125",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/24132"
+            }
+        },
+        {
+            "id": 24020,
+            "name": "Mega Charizard X ex",
+            "name_numbered": "Mega Charizard X ex 13",
+            "slug": "mega-charizard-x-ex",
+            "card_code_number": "PFL 13",
+            "type": "singles",
+            "card_number": 13,
+            "hp": 360,
+            "rarity": "Double Rare",
+            "supertype": "Pokémon",
+            "tcgid": "me2-13",
+            "cardmarket_id": 857588,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 2,
+                    "lowest_near_mint_EU_only": 2,
+                    "lowest_near_mint_DE": 2,
+                    "lowest_near_mint_DE_EU_only": 2.45,
+                    "lowest_near_mint_FR": 1.5,
+                    "lowest_near_mint_FR_EU_only": 1.99,
+                    "lowest_near_mint_ES": 1.9,
+                    "lowest_near_mint_ES_EU_only": 1.9,
+                    "lowest_near_mint_IT": 0.99,
+                    "lowest_near_mint_IT_EU_only": 0.99,
+                    "30d_average": 2.94,
+                    "7d_average": 2.94,
+                    "available_items": 2178,
+                    "graded": []
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "cgc": {
+                            "10": {
+                                "median_price": 27.5,
+                                "sample_size": 2
+                            },
+                            "9": {
+                                "median_price": 15,
+                                "sample_size": 1
+                            },
+                            "8": {
+                                "median_price": 20,
+                                "sample_size": 3
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 115,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 29.99,
+                                "sample_size": 3
+                            },
+                            "7": {
+                                "median_price": 11,
+                                "sample_size": 2
+                            }
+                        }
+                    }
+                }
+            },
+            "episode": {
+                "id": 231,
+                "name": "Phantasmal Flames",
+                "slug": "phantasmal-flames",
+                "released_at": "2025-11-14",
+                "logo": "https://images.tcggo.com/tcggo/storage/23782/Pokemon_TCG_Mega_Evolution%E2%80%94Phantasmal_Flames_Logo.png",
+                "code": "PFL",
+                "cards_total": 130,
+                "cards_printed_total": 94,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1327.54,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 490,
+                "name": "takuyoa",
+                "slug": "takuyoa"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/24107/mega-charizard-x-ex-pfl-13-phantasmal-flames.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/phantasmal-flames/mega-charizard-x-ex-13",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/24020"
+            }
+        },
+        {
+            "id": 24116,
+            "name": "Mega Charizard X ex",
+            "name_numbered": "Mega Charizard X ex 109",
+            "slug": "mega-charizard-x-ex",
+            "card_code_number": "PFL 109",
+            "type": "singles",
+            "card_number": 109,
+            "hp": 360,
+            "rarity": "Ultra Rare",
+            "supertype": "Pokémon",
+            "tcgid": "me2-109",
+            "cardmarket_id": 857684,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 27,
+                    "lowest_near_mint_EU_only": 27,
+                    "lowest_near_mint_DE": 22.5,
+                    "lowest_near_mint_DE_EU_only": 22.5,
+                    "lowest_near_mint_FR": 30,
+                    "lowest_near_mint_FR_EU_only": 30,
+                    "lowest_near_mint_ES": 25.98,
+                    "lowest_near_mint_ES_EU_only": 25.98,
+                    "lowest_near_mint_IT": 16.9,
+                    "lowest_near_mint_IT_EU_only": 16.9,
+                    "30d_average": 28.94,
+                    "7d_average": 30.06,
+                    "available_items": 797,
+                    "graded": []
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "10": {
+                                "median_price": 54.53,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 34.65,
+                                "sample_size": 5
+                            }
+                        },
+                        "bgs": {
+                            "10": {
+                                "median_price": 304,
+                                "sample_size": 5
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 98.31,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 48.92,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 23.77,
+                                "sample_size": 3
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 150.83,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 48.41,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 40.28,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 40.5,
+                                "sample_size": 2
+                            }
+                        },
+                        "sgc": {
+                            "10": {
+                                "median_price": 54.85,
+                                "sample_size": 2
+                            }
+                        },
+                        "tag": {
+                            "10": {
+                                "median_price": 160.87,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 44.69,
+                                "sample_size": 5
+                            }
+                        }
+                    }
+                }
+            },
+            "episode": {
+                "id": 231,
+                "name": "Phantasmal Flames",
+                "slug": "phantasmal-flames",
+                "released_at": "2025-11-14",
+                "logo": "https://images.tcggo.com/tcggo/storage/23782/Pokemon_TCG_Mega_Evolution%E2%80%94Phantasmal_Flames_Logo.png",
+                "code": "PFL",
+                "cards_total": 130,
+                "cards_printed_total": 94,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1327.54,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 490,
+                "name": "takuyoa",
+                "slug": "takuyoa"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/24113/mega-charizard-x-ex-pfl-109-phantasmal-flames.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/phantasmal-flames/mega-charizard-x-ex-109",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/24116"
+            }
+        },
+        {
+            "id": 24137,
+            "name": "Mega Charizard X ex",
+            "name_numbered": "Mega Charizard X ex 130",
+            "slug": "mega-charizard-x-ex",
+            "card_code_number": "PFL 130",
+            "type": "singles",
+            "card_number": 130,
+            "hp": 360,
+            "rarity": "Mega Hyper Rare",
+            "supertype": "Pokémon",
+            "tcgid": "me2-130",
+            "cardmarket_id": 857705,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 299,
+                    "lowest_near_mint_EU_only": 295,
+                    "lowest_near_mint_DE": 260,
+                    "lowest_near_mint_DE_EU_only": 260,
+                    "lowest_near_mint_FR": 270,
+                    "lowest_near_mint_FR_EU_only": 270,
+                    "lowest_near_mint_ES": 230,
+                    "lowest_near_mint_ES_EU_only": 230,
+                    "lowest_near_mint_IT": 310,
+                    "lowest_near_mint_IT_EU_only": 310,
+                    "30d_average": 272.35,
+                    "7d_average": 283.82,
+                    "available_items": 281,
+                    "graded": {
+                        "psa": {
+                            "psa10": 2999,
+                            "psa9": 415
+                        },
+                        "bgs": {
+                            "bgs8": 400
+                        }
+                    }
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "10": {
+                                "median_price": 716.55,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 264.08,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 227.92,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 288.03,
+                                "sample_size": 1
+                            }
+                        },
+                        "bgs": {
+                            "9": {
+                                "median_price": 409.65,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 280,
+                                "sample_size": 1
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 652.46,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 312.83,
+                                "sample_size": 5
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 2152.54,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 301.65,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 303.8,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 313,
+                                "sample_size": 2
+                            }
+                        },
+                        "tag": {
+                            "10": {
+                                "median_price": 2990,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 335.17,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 344.03,
+                                "sample_size": 2
+                            }
+                        }
+                    }
+                }
+            },
+            "episode": {
+                "id": 231,
+                "name": "Phantasmal Flames",
+                "slug": "phantasmal-flames",
+                "released_at": "2025-11-14",
+                "logo": "https://images.tcggo.com/tcggo/storage/23782/Pokemon_TCG_Mega_Evolution%E2%80%94Phantasmal_Flames_Logo.png",
+                "code": "PFL",
+                "cards_total": 130,
+                "cards_printed_total": 94,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1327.54,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 490,
+                "name": "takuyoa",
+                "slug": "takuyoa"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/24156/mega-charizard-x-ex-pfl-130-phantasmal-flames.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/phantasmal-flames/mega-charizard-x-ex-130",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/24137"
+            }
+        },
+        {
+            "id": 33627,
+            "name": "Mega Charizard X ex",
+            "name_numbered": "Mega Charizard X ex 23",
+            "slug": "mega-charizard-x-ex",
+            "card_code_number": "MEP 23",
+            "type": "singles",
+            "card_number": 23,
+            "hp": null,
+            "rarity": "Promo",
+            "supertype": null,
+            "tcgid": null,
+            "cardmarket_id": 859033,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 48,
+                    "lowest_near_mint_EU_only": 48,
+                    "lowest_near_mint_DE": 50,
+                    "lowest_near_mint_DE_EU_only": 50,
+                    "lowest_near_mint_FR": 38,
+                    "lowest_near_mint_FR_EU_only": 43.99,
+                    "lowest_near_mint_ES": 58,
+                    "lowest_near_mint_ES_EU_only": 58,
+                    "lowest_near_mint_IT": 30,
+                    "lowest_near_mint_IT_EU_only": 30,
+                    "30d_average": 64.09,
+                    "7d_average": 65.27,
+                    "available_items": 996,
+                    "graded": []
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "10": {
+                                "median_price": 95.65,
+                                "sample_size": 5
+                            }
+                        },
+                        "bgs": {
+                            "9": {
+                                "median_price": 129,
+                                "sample_size": 1
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 97.45,
+                                "sample_size": 1
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 208.55,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 53.8,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 46.31,
+                                "sample_size": 2
+                            },
+                            "7": {
+                                "median_price": 34.08,
+                                "sample_size": 1
+                            }
+                        },
+                        "tag": {
+                            "10": {
+                                "median_price": 377,
+                                "sample_size": 2
+                            },
+                            "9": {
+                                "median_price": 50,
+                                "sample_size": 4
+                            }
+                        }
+                    }
+                }
+            },
+            "episode": {
+                "id": 412,
+                "name": "MEP Black Star Promos",
+                "slug": "mep-black-star-promos",
+                "released_at": "2025-09-26",
+                "logo": "https://images.tcggo.com/tcggo/storage/33951/300px-Black_Star_Promos_Symbol.png",
+                "code": "MEP",
+                "cards_total": 0,
+                "cards_printed_total": 0,
+                "prices": {
+                    "cardmarket": {
+                        "total": 2007.97,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 370,
+                "name": "Saboteri",
+                "slug": "saboteri"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/34170/mega-charizard-x-ex-mep-mep-023-mep-black-star-promos.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/mep-black-star-promos/mega-charizard-x-ex",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/33627"
+            }
+        },
+        {
+            "id": 33634,
+            "name": "Mega Charizard X ex",
+            "name_numbered": "Mega Charizard X ex 29",
+            "slug": "mega-charizard-x-ex",
+            "card_code_number": "MEP 29",
+            "type": "singles",
+            "card_number": 29,
+            "hp": null,
+            "rarity": "Promo",
+            "supertype": null,
+            "tcgid": null,
+            "cardmarket_id": 873692,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 2,
+                    "lowest_near_mint_EU_only": 2,
+                    "lowest_near_mint_DE": 2.69,
+                    "lowest_near_mint_DE_EU_only": 2.69,
+                    "lowest_near_mint_FR": 2.2,
+                    "lowest_near_mint_FR_EU_only": 2.2,
+                    "lowest_near_mint_ES": 2,
+                    "lowest_near_mint_ES_EU_only": 2,
+                    "lowest_near_mint_IT": 1.5,
+                    "lowest_near_mint_IT_EU_only": 1.5,
+                    "30d_average": 3.59,
+                    "7d_average": 3.62,
+                    "available_items": 1105,
+                    "graded": []
+                }
+            },
+            "episode": {
+                "id": 412,
+                "name": "MEP Black Star Promos",
+                "slug": "mep-black-star-promos",
+                "released_at": "2025-09-26",
+                "logo": "https://images.tcggo.com/tcggo/storage/33951/300px-Black_Star_Promos_Symbol.png",
+                "code": "MEP",
+                "cards_total": 0,
+                "cards_printed_total": 0,
+                "prices": {
+                    "cardmarket": {
+                        "total": 2007.97,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 490,
+                "name": "takuyoa",
+                "slug": "takuyoa"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/34177/mega-charizard-x-ex-mep-mep-029-mep-black-star-promos.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/mep-black-star-promos/mega-charizard-x-ex-1",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/33634"
+            }
+        },
+        {
+            "id": 31473,
+            "name": "Mega Charizard Y ex",
+            "name_numbered": "Mega Charizard Y ex 22",
+            "slug": "mega-charizard-y-ex",
+            "card_code_number": "ASC 22",
+            "type": "singles",
+            "card_number": 22,
+            "hp": 360,
+            "rarity": "Double Rare",
+            "supertype": "Pokémon",
+            "tcgid": "me2pt5-22",
+            "cardmarket_id": 869633,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 4.85,
+                    "lowest_near_mint_EU_only": 4.85,
+                    "lowest_near_mint_DE": 4.4,
+                    "lowest_near_mint_DE_EU_only": 4.4,
+                    "lowest_near_mint_FR": 3.9,
+                    "lowest_near_mint_FR_EU_only": 3.99,
+                    "lowest_near_mint_ES": 4.4,
+                    "lowest_near_mint_ES_EU_only": 4.4,
+                    "lowest_near_mint_IT": 1.85,
+                    "lowest_near_mint_IT_EU_only": 1.85,
+                    "30d_average": 4.99,
+                    "7d_average": 4.91,
+                    "available_items": 653,
+                    "graded": []
+                }
+            },
+            "episode": {
+                "id": 396,
+                "name": "Ascended Heroes",
+                "slug": "ascended-heroes",
+                "released_at": "2026-01-30",
+                "logo": "https://images.tcggo.com/tcggo/storage/34000/ascended_heroes.png",
+                "code": "ASC",
+                "cards_total": 295,
+                "cards_printed_total": 217,
+                "prices": {
+                    "cardmarket": {
+                        "total": 5378.18,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 371,
+                "name": "aky CG Works",
+                "slug": "aky-cg-works"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/31980/mega-charizard-y-ex-asc-22-ascended-heroes.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/ascended-heroes/mega-charizard-y-ex-22",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/31473"
+            }
+        },
+        {
+            "id": 31745,
+            "name": "Mega Charizard Y ex",
+            "name_numbered": "Mega Charizard Y ex 294",
+            "slug": "mega-charizard-y-ex",
+            "card_code_number": "ASC 294",
+            "type": "singles",
+            "card_number": 294,
+            "hp": 360,
+            "rarity": "Mega Hyper Rare",
+            "supertype": "Pokémon",
+            "tcgid": "me2pt5-294",
+            "cardmarket_id": 869905,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 416.73,
+                    "lowest_near_mint_EU_only": 450,
+                    "lowest_near_mint_DE": 295,
+                    "lowest_near_mint_DE_EU_only": 295,
+                    "lowest_near_mint_FR": 285,
+                    "lowest_near_mint_FR_EU_only": 285,
+                    "lowest_near_mint_ES": 280,
+                    "lowest_near_mint_ES_EU_only": 280,
+                    "lowest_near_mint_IT": 334.99,
+                    "lowest_near_mint_IT_EU_only": 334.99,
+                    "30d_average": 486.21,
+                    "7d_average": 809.68,
+                    "available_items": 166,
+                    "graded": []
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "10": {
+                                "median_price": 745.72,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 337.79,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 289.92,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 258.92,
+                                "sample_size": 3
+                            }
+                        },
+                        "bgs": {
+                            "9": {
+                                "median_price": 722.18,
+                                "sample_size": 5
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 978.71,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 600,
+                                "sample_size": 1
+                            },
+                            "8": {
+                                "median_price": 455.75,
+                                "sample_size": 2
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 2469.72,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 436.32,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 420.13,
+                                "sample_size": 5
+                            }
+                        },
+                        "tag": {
+                            "10": {
+                                "median_price": 4000,
+                                "sample_size": 2
+                            },
+                            "9": {
+                                "median_price": 850,
+                                "sample_size": 5
+                            }
+                        }
+                    }
+                }
+            },
+            "episode": {
+                "id": 396,
+                "name": "Ascended Heroes",
+                "slug": "ascended-heroes",
+                "released_at": "2026-01-30",
+                "logo": "https://images.tcggo.com/tcggo/storage/34000/ascended_heroes.png",
+                "code": "ASC",
+                "cards_total": 295,
+                "cards_printed_total": 217,
+                "prices": {
+                    "cardmarket": {
+                        "total": 5378.18,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 371,
+                "name": "aky CG Works",
+                "slug": "aky-cg-works"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/31978/mega-charizard-y-ex-asc-294-ascended-heroes.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/ascended-heroes/mega-charizard-y-ex-294",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/31745"
+            }
+        },
+        {
+            "id": 33635,
+            "name": "Mega Charizard Y ex",
+            "name_numbered": "Mega Charizard Y ex 30",
+            "slug": "mega-charizard-y-ex",
+            "card_code_number": "MEP 30",
+            "type": "singles",
+            "card_number": 30,
+            "hp": null,
+            "rarity": "Promo",
+            "supertype": null,
+            "tcgid": null,
+            "cardmarket_id": 873699,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 2.5,
+                    "lowest_near_mint_EU_only": 2.5,
+                    "lowest_near_mint_DE": 2.3,
+                    "lowest_near_mint_DE_EU_only": 2.3,
+                    "lowest_near_mint_FR": 2.88,
+                    "lowest_near_mint_FR_EU_only": 2.95,
+                    "lowest_near_mint_ES": 2.1,
+                    "lowest_near_mint_ES_EU_only": 2.1,
+                    "lowest_near_mint_IT": 2.5,
+                    "lowest_near_mint_IT_EU_only": 2.5,
+                    "30d_average": 4.04,
+                    "7d_average": 4.8,
+                    "available_items": 1203,
+                    "graded": []
+                }
+            },
+            "episode": {
+                "id": 412,
+                "name": "MEP Black Star Promos",
+                "slug": "mep-black-star-promos",
+                "released_at": "2025-09-26",
+                "logo": "https://images.tcggo.com/tcggo/storage/33951/300px-Black_Star_Promos_Symbol.png",
+                "code": "MEP",
+                "cards_total": 0,
+                "cards_printed_total": 0,
+                "prices": {
+                    "cardmarket": {
+                        "total": 2007.97,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 0,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 17,
+                    "name": "Mega Evolution",
+                    "slug": "mega-evolution"
+                }
+            },
+            "artist": {
+                "id": 1070,
+                "name": "Ultimateinudog",
+                "slug": "ultimateinudog"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/34178/mega-charizard-y-ex-mep-mep-030-mep-black-star-promos.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/mep-black-star-promos/mega-charizard-y-ex",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/33635"
+            }
+        },
+        {
+            "id": 16656,
+            "name": "Unown",
+            "name_numbered": "Unown X",
+            "slug": "unown",
+            "card_code_number": "UF X",
+            "type": "singles",
+            "card_number": "X",
+            "hp": 60,
+            "rarity": "rare",
+            "supertype": "Pokémon",
+            "tcgid": "ex10-X",
+            "cardmarket_id": 276637,
+            "tcgplayer_id": 90191,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 18.99,
+                    "lowest_near_mint_EU_only": 18.99,
+                    "lowest_near_mint_DE": 11,
+                    "lowest_near_mint_DE_EU_only": 11,
+                    "lowest_near_mint_FR": 54.99,
+                    "lowest_near_mint_FR_EU_only": 54.99,
+                    "lowest_near_mint_IT": 203.7,
+                    "lowest_near_mint_IT_EU_only": 203.7,
+                    "30d_average": 10.8,
+                    "7d_average": 11.34,
+                    "available_items": 60,
+                    "graded": []
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "cgc": {
+                            "10": {
+                                "median_price": 89.36,
+                                "sample_size": 4
+                            },
+                            "9": {
+                                "median_price": 23.09,
+                                "sample_size": 1
+                            }
+                        },
+                        "psa": {
+                            "9": {
+                                "median_price": 103.5,
+                                "sample_size": 3
+                            },
+                            "8": {
+                                "median_price": 37.98,
+                                "sample_size": 1
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 27.87,
+                    "mid_price": 44.38
+                }
+            },
+            "episode": {
+                "id": 139,
+                "name": "EX Unseen Forces",
+                "slug": "ex-unseen-forces",
+                "released_at": "2005-08-01",
+                "logo": "https://images.tcggo.com/tcggo/storage/16697/unseen-forces-logo.png",
+                "code": "UF",
+                "cards_total": 145,
+                "cards_printed_total": 115,
+                "prices": {
+                    "cardmarket": {
+                        "total": 11350.33,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 6054.93,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 11,
+                    "name": "EX",
+                    "slug": "ex"
+                }
+            },
+            "artist": {
+                "id": 663,
+                "name": "Kyoko Koizumi",
+                "slug": "kyoko-koizumi"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/16839/unown-uf-x-unseen-forces-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/ex-unseen-forces/unown-x",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/16656",
+                "tcgplayer": "https://www.tcggo.com/external/tcgplayer/16656"
+            }
+        },
+        {
+            "id": 2818,
+            "name": "Charizard ex",
+            "name_numbered": "Charizard ex 125",
+            "slug": "charizard-ex",
+            "card_code_number": "OBF 125",
+            "type": "singles",
+            "card_number": 125,
+            "hp": 330,
+            "rarity": "Double Rare",
+            "supertype": "Pokémon",
+            "tcgid": "sv3-125",
+            "cardmarket_id": 725205,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 2.5,
+                    "lowest_near_mint_EU_only": 2.5,
+                    "lowest_near_mint_DE": 3.49,
+                    "lowest_near_mint_DE_EU_only": 3.49,
+                    "lowest_near_mint_FR": 3,
+                    "lowest_near_mint_FR_EU_only": 3,
+                    "lowest_near_mint_ES": 2,
+                    "lowest_near_mint_ES_EU_only": 2,
+                    "lowest_near_mint_IT": 2,
+                    "lowest_near_mint_IT_EU_only": 2,
+                    "30d_average": 4.08,
+                    "7d_average": 3.88,
+                    "available_items": null,
+                    "graded": {
+                        "psa": {
+                            "psa10": 110,
+                            "psa9": 33
+                        },
+                        "cgc": {
+                            "cgc10": 99,
+                            "cgc9": 35
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 5.28,
+                    "mid_price": 5.83
+                }
+            },
+            "episode": {
+                "id": 17,
+                "name": "Obsidian Flames",
+                "slug": "obsidian-flames",
+                "released_at": "2023-08-11",
+                "logo": "https://images.tcggo.com/tcggo/storage/2703/obsidian-flames-logo.png",
+                "code": "OBF",
+                "cards_total": 230,
+                "cards_printed_total": 197,
+                "prices": {
+                    "cardmarket": {
+                        "total": 340.65,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 359.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 1,
+                    "name": "Scarlet & Violet",
+                    "slug": "scarlet-violet"
+                }
+            },
+            "artist": {
+                "id": 380,
+                "name": "5ban Graphics",
+                "slug": "5ban-graphics"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/2832/charizard-ex-obf-125-obsidian-flames-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/obsidian-flames/charizard-ex-125",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/2818"
+            }
+        },
+        {
+            "id": 17108,
+            "name": "Charizard ex",
+            "name_numbered": "Charizard ex 105",
+            "slug": "charizard-ex",
+            "card_code_number": "RG 105",
+            "type": "singles",
+            "card_number": 105,
+            "hp": 160,
+            "rarity": "Rare Holo EX",
+            "supertype": "Pokémon",
+            "tcgid": "ex6-105",
+            "cardmarket_id": 276281,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": null,
+                    "lowest_near_mint_EU_only": null,
+                    "lowest_near_mint_DE": 990,
+                    "lowest_near_mint_DE_EU_only": 990,
+                    "lowest_near_mint_FR": 10000,
+                    "lowest_near_mint_FR_EU_only": 10000,
+                    "lowest_near_mint_IT": null,
+                    "lowest_near_mint_IT_EU_only": null,
+                    "30d_average": 607.43,
+                    "7d_average": 561.5,
+                    "available_items": null,
+                    "graded": []
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "bgs": {
+                            "9": {
+                                "median_price": 2412.5,
+                                "sample_size": 2
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 5999.99,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 2500,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 1500,
+                                "sample_size": 1
+                            },
+                            "7": {
+                                "median_price": 1795,
+                                "sample_size": 1
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 22000,
+                                "sample_size": 1
+                            },
+                            "9": {
+                                "median_price": 4969.99,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 2075,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 1700,
+                                "sample_size": 5
+                            }
+                        },
+                        "tag": {
+                            "8": {
+                                "median_price": 1675,
+                                "sample_size": 1
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 427.35,
+                    "mid_price": 747.85
+                }
+            },
+            "episode": {
+                "id": 144,
+                "name": "EX FireRed & LeafGreen",
+                "slug": "ex-firered-leafgreen",
+                "released_at": "2004-09-01",
+                "logo": "https://images.tcggo.com/tcggo/storage/17193/firered-leafgreen-logo.png",
+                "code": "RG",
+                "cards_total": 116,
+                "cards_printed_total": 112,
+                "prices": {
+                    "cardmarket": {
+                        "total": 3839.92,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 3231.13,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 11,
+                    "name": "EX",
+                    "slug": "ex"
+                }
+            },
+            "artist": {
+                "id": 606,
+                "name": "Hiromichi Sugiyama",
+                "slug": "hiromichi-sugiyama"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/17300/charizard-ex-rg-105-firered-leafgreen-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/ex-firered-leafgreen/charizard-ex-105",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/17108"
+            }
+        },
+        {
+            "id": 2513,
+            "name": "Charizard ex",
+            "name_numbered": "Charizard ex 6",
+            "slug": "charizard-ex",
+            "card_code_number": "MEW 6",
+            "type": "singles",
+            "card_number": 6,
+            "hp": 330,
+            "rarity": "Double Rare",
+            "supertype": "Pokémon",
+            "tcgid": "sv3pt5-6",
+            "cardmarket_id": 733601,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 8,
+                    "lowest_near_mint_EU_only": 8,
+                    "lowest_near_mint_DE": 9,
+                    "lowest_near_mint_DE_EU_only": 9,
+                    "lowest_near_mint_FR": 6.5,
+                    "lowest_near_mint_FR_EU_only": 6.5,
+                    "lowest_near_mint_ES": 10,
+                    "lowest_near_mint_ES_EU_only": 10,
+                    "lowest_near_mint_IT": 5,
+                    "lowest_near_mint_IT_EU_only": 5,
+                    "30d_average": 8.97,
+                    "7d_average": 8.99,
+                    "available_items": 612,
+                    "graded": {
+                        "psa": {
+                            "psa10": 199
+                        },
+                        "cgc": {
+                            "cgc9": 35
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 8.71,
+                    "mid_price": 8.99
+                }
+            },
+            "episode": {
+                "id": 16,
+                "name": "151",
+                "slug": "151",
+                "released_at": "2023-09-22",
+                "logo": "https://images.tcggo.com/tcggo/storage/2496/151-logo.png",
+                "code": "MEW",
+                "cards_total": 207,
+                "cards_printed_total": 165,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1880.36,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1899.84,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 1,
+                    "name": "Scarlet & Violet",
+                    "slug": "scarlet-violet"
+                }
+            },
+            "artist": {
+                "id": 384,
+                "name": "PLANETA Mochizuki",
+                "slug": "planeta-mochizuki"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/2527/charizard-ex-mew-6-151-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/151/charizard-ex-6",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/2513"
+            }
+        },
+        {
+            "id": 2674,
+            "name": "Charizard ex",
+            "name_numbered": "Charizard ex 183",
+            "slug": "charizard-ex",
+            "card_code_number": "MEW 183",
+            "type": "singles",
+            "card_number": 183,
+            "hp": 330,
+            "rarity": "Ultra Rare",
+            "supertype": "Pokémon",
+            "tcgid": "sv3pt5-183",
+            "cardmarket_id": 733778,
+            "tcgplayer_id": 517017,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 39,
+                    "lowest_near_mint_EU_only": 39.99,
+                    "lowest_near_mint_DE": 40.75,
+                    "lowest_near_mint_DE_EU_only": 40.75,
+                    "lowest_near_mint_FR": 73.4,
+                    "lowest_near_mint_FR_EU_only": 73.4,
+                    "lowest_near_mint_ES": 50,
+                    "lowest_near_mint_ES_EU_only": 50,
+                    "lowest_near_mint_IT": 54.9,
+                    "lowest_near_mint_IT_EU_only": 54.9,
+                    "30d_average": 53.88,
+                    "7d_average": 48.42,
+                    "available_items": 441,
+                    "graded": {
+                        "psa": {
+                            "psa10": 74,
+                            "psa9": 75,
+                            "psa8": 45
+                        },
+                        "bgs": {
+                            "bgs9": 75
+                        },
+                        "cgc": {
+                            "cgc10": 100,
+                            "cgc9": 54
+                        }
+                    }
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "10": {
+                                "median_price": 151.45,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 41.92,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 36.75,
+                                "sample_size": 3
+                            },
+                            "7": {
+                                "median_price": 21.25,
+                                "sample_size": 1
+                            }
+                        },
+                        "bgs": {
+                            "9": {
+                                "median_price": 40.22,
+                                "sample_size": 1
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 89.38,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 44.32,
+                                "sample_size": 5
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 218.93,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 51.91,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 40.21,
+                                "sample_size": 5
+                            }
+                        },
+                        "tag": {
+                            "10": {
+                                "median_price": 205.57,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 45,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 32.41,
+                                "sample_size": 1
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 43.21,
+                    "mid_price": 46.98
+                }
+            },
+            "episode": {
+                "id": 16,
+                "name": "151",
+                "slug": "151",
+                "released_at": "2023-09-22",
+                "logo": "https://images.tcggo.com/tcggo/storage/2496/151-logo.png",
+                "code": "MEW",
+                "cards_total": 207,
+                "cards_printed_total": 165,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1880.36,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1899.84,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 1,
+                    "name": "Scarlet & Violet",
+                    "slug": "scarlet-violet"
+                }
+            },
+            "artist": {
+                "id": 384,
+                "name": "PLANETA Mochizuki",
+                "slug": "planeta-mochizuki"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/2686/charizard-ex-mew-183-151-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/151/charizard-ex-183",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/2674",
+                "tcgplayer": "https://www.tcggo.com/external/tcgplayer/2674"
+            }
+        },
+        {
+            "id": 2682,
+            "name": "Charizard ex",
+            "name_numbered": "Charizard ex 199",
+            "slug": "charizard-ex",
+            "card_code_number": "MEW 199",
+            "type": "singles",
+            "card_number": 199,
+            "hp": 330,
+            "rarity": "Special Illustration Rare",
+            "supertype": "Pokémon",
+            "tcgid": "sv3pt5-199",
+            "cardmarket_id": 733794,
+            "tcgplayer_id": 517045,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 358.14,
+                    "lowest_near_mint_EU_only": 364.95,
+                    "lowest_near_mint_DE": 300,
+                    "lowest_near_mint_DE_EU_only": 300,
+                    "lowest_near_mint_FR": 375,
+                    "lowest_near_mint_FR_EU_only": 375,
+                    "lowest_near_mint_ES": 395,
+                    "lowest_near_mint_ES_EU_only": 395,
+                    "lowest_near_mint_IT": 295,
+                    "lowest_near_mint_IT_EU_only": 295,
+                    "30d_average": 417.3,
+                    "7d_average": 370.58,
+                    "available_items": 467,
+                    "graded": {
+                        "psa": {
+                            "psa10": 480,
+                            "psa9": 435,
+                            "psa8": 360
+                        },
+                        "cgc": {
+                            "cgc10": 999,
+                            "cgc9": 449
+                        }
+                    }
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "10": {
+                                "median_price": 676.69,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 325.83,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 282.45,
+                                "sample_size": 2
+                            }
+                        },
+                        "bgs": {
+                            "9": {
+                                "median_price": 413.75,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 320,
+                                "sample_size": 1
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 541.64,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 359.07,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 375,
+                                "sample_size": 1
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 1354.1,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 376.13,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 327.83,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 338.52,
+                                "sample_size": 5
+                            }
+                        },
+                        "sgc": {
+                            "10": {
+                                "median_price": 729.44,
+                                "sample_size": 2
+                            },
+                            "9": {
+                                "median_price": 400,
+                                "sample_size": 3
+                            }
+                        },
+                        "tag": {
+                            "10": {
+                                "median_price": 1147.22,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 451.37,
+                                "sample_size": 5
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 380.19,
+                    "mid_price": 427.34
+                }
+            },
+            "episode": {
+                "id": 16,
+                "name": "151",
+                "slug": "151",
+                "released_at": "2023-09-22",
+                "logo": "https://images.tcggo.com/tcggo/storage/2496/151-logo.png",
+                "code": "MEW",
+                "cards_total": 207,
+                "cards_printed_total": 165,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1880.36,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1899.84,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 1,
+                    "name": "Scarlet & Violet",
+                    "slug": "scarlet-violet"
+                }
+            },
+            "artist": {
+                "id": 449,
+                "name": "miki kudo",
+                "slug": "miki-kudo"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/2694/charizard-ex-mew-199-151-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/151/charizard-ex-199",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/2682",
+                "tcgplayer": "https://www.tcggo.com/external/tcgplayer/2682"
+            }
+        },
+        {
+            "id": 10356,
+            "name": "Charizard-EX",
+            "name_numbered": "Charizard-EX 12",
+            "slug": "charizard-ex",
+            "card_code_number": "EVO 12",
+            "type": "singles",
+            "card_number": 12,
+            "hp": 180,
+            "rarity": "Rare Holo EX",
+            "supertype": "Pokémon",
+            "tcgid": "xy12-12",
+            "cardmarket_id": 293422,
+            "tcgplayer_id": 124024,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 13,
+                    "lowest_near_mint_EU_only": 13,
+                    "lowest_near_mint_DE": 21,
+                    "lowest_near_mint_DE_EU_only": 21,
+                    "lowest_near_mint_FR": 32,
+                    "lowest_near_mint_FR_EU_only": 32,
+                    "lowest_near_mint_ES": 25,
+                    "lowest_near_mint_ES_EU_only": 25,
+                    "lowest_near_mint_IT": 15.8,
+                    "lowest_near_mint_IT_EU_only": 15.8,
+                    "30d_average": 16.76,
+                    "7d_average": 14.57,
+                    "available_items": 269,
+                    "graded": []
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "10": {
+                                "median_price": 92.37,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 26.42,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 26.99,
+                                "sample_size": 1
+                            }
+                        },
+                        "bgs": {
+                            "9": {
+                                "median_price": 21.5,
+                                "sample_size": 1
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 98.42,
+                                "sample_size": 4
+                            },
+                            "9": {
+                                "median_price": 19.39,
+                                "sample_size": 5
+                            }
+                        },
+                        "gma": {
+                            "10": {
+                                "median_price": 59.99,
+                                "sample_size": 1
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 187.98,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 42.96,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 22.38,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 20,
+                                "sample_size": 5
+                            }
+                        },
+                        "sgc": {
+                            "9": {
+                                "median_price": 31.32,
+                                "sample_size": 1
+                            }
+                        },
+                        "tag": {
+                            "10": {
+                                "median_price": 179.99,
+                                "sample_size": 1
+                            },
+                            "9": {
+                                "median_price": 42.62,
+                                "sample_size": 2
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 13,
+                    "mid_price": 13.67
+                }
+            },
+            "episode": {
+                "id": 71,
+                "name": "Evolutions",
+                "slug": "evolutions",
+                "released_at": "2016-11-02",
+                "logo": "https://images.tcggo.com/tcggo/storage/10425/evolutions-logo.png",
+                "code": "EVO",
+                "cards_total": 113,
+                "cards_printed_total": 108,
+                "prices": {
+                    "cardmarket": {
+                        "total": 648.97,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 591.91,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 5,
+                    "name": "XY",
+                    "slug": "xy"
+                }
+            },
+            "artist": {
+                "id": 609,
+                "name": "PLANETA",
+                "slug": "planeta"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/10438/charizard-ex-evo-12-evolutions-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/evolutions/charizard-ex-12",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/10356",
+                "tcgplayer": "https://www.tcggo.com/external/tcgplayer/10356"
+            }
+        },
+        {
+            "id": 10725,
+            "name": "Charizard-EX",
+            "name_numbered": "Charizard-EX 11",
+            "slug": "charizard-ex",
+            "card_code_number": "GEN 11",
+            "type": "singles",
+            "card_number": 11,
+            "hp": 180,
+            "rarity": "Rare Holo EX",
+            "supertype": "Pokémon",
+            "tcgid": "g1-11",
+            "cardmarket_id": 288405,
+            "tcgplayer_id": 113669,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 20,
+                    "lowest_near_mint_EU_only": 20,
+                    "lowest_near_mint_DE": 24.99,
+                    "lowest_near_mint_DE_EU_only": 24.99,
+                    "lowest_near_mint_FR": 33,
+                    "lowest_near_mint_FR_EU_only": 33,
+                    "lowest_near_mint_ES": 21,
+                    "lowest_near_mint_ES_EU_only": 21,
+                    "lowest_near_mint_IT": 39.7,
+                    "lowest_near_mint_IT_EU_only": 39.7,
+                    "30d_average": 21.19,
+                    "7d_average": 23.69,
+                    "available_items": 163,
+                    "graded": {
+                        "psa": {
+                            "psa10": 1400,
+                            "psa9": 60,
+                            "psa8": 50
+                        }
+                    }
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "9": {
+                                "median_price": 44.59,
+                                "sample_size": 3
+                            },
+                            "7": {
+                                "median_price": 38.7,
+                                "sample_size": 2
+                            }
+                        },
+                        "cgc": {
+                            "8": {
+                                "median_price": 35,
+                                "sample_size": 1
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 1100.25,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 59.67,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 35.19,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 24.17,
+                                "sample_size": 5
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 17.77,
+                    "mid_price": 17.62
+                }
+            },
+            "episode": {
+                "id": 75,
+                "name": "Generations",
+                "slug": "generations",
+                "released_at": "2016-02-22",
+                "logo": "https://images.tcggo.com/tcggo/storage/10803/generations-logo.png",
+                "code": "GEN",
+                "cards_total": 117,
+                "cards_printed_total": 83,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1184.58,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1108.1,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 5,
+                    "name": "XY",
+                    "slug": "xy"
+                }
+            },
+            "artist": {
+                "id": 457,
+                "name": "Eske Yoshinob",
+                "slug": "eske-yoshinob"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/10814/charizard-ex-gen-11-generations-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/generations/charizard-ex-11",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/10725",
+                "tcgplayer": "https://www.tcggo.com/external/tcgplayer/10725"
+            }
+        },
+        {
+            "id": 11806,
+            "name": "Charizard-EX",
+            "name_numbered": "Charizard-EX 11",
+            "slug": "charizard-ex",
+            "card_code_number": "FLF 11",
+            "type": "singles",
+            "card_number": 11,
+            "hp": 180,
+            "rarity": "Rare Holo EX",
+            "supertype": "Pokémon",
+            "tcgid": "xy2-11",
+            "cardmarket_id": 363903,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 7,
+                    "lowest_near_mint_EU_only": 7,
+                    "lowest_near_mint_DE": 10,
+                    "lowest_near_mint_DE_EU_only": 10,
+                    "lowest_near_mint_FR": 6.5,
+                    "lowest_near_mint_FR_EU_only": 6.5,
+                    "lowest_near_mint_ES": null,
+                    "lowest_near_mint_ES_EU_only": null,
+                    "lowest_near_mint_IT": 18,
+                    "lowest_near_mint_IT_EU_only": 18,
+                    "30d_average": 7.45,
+                    "7d_average": 8.2,
+                    "available_items": 46,
+                    "graded": {
+                        "psa": {
+                            "psa10": 300,
+                            "psa9": 139
+                        }
+                    }
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "9": {
+                                "median_price": 4.15,
+                                "sample_size": 1
+                            }
+                        },
+                        "bgs": {
+                            "9": {
+                                "median_price": 22.02,
+                                "sample_size": 1
+                            }
+                        },
+                        "cgc": {
+                            "10": {
+                                "median_price": 223.99,
+                                "sample_size": 2
+                            },
+                            "9": {
+                                "median_price": 23.39,
+                                "sample_size": 3
+                            },
+                            "8": {
+                                "median_price": 24.19,
+                                "sample_size": 2
+                            },
+                            "7": {
+                                "median_price": 11.5,
+                                "sample_size": 1
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 183.49,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 44.79,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 24.16,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 15.29,
+                                "sample_size": 5
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 12,
+                    "mid_price": 12.81
+                }
+            },
+            "episode": {
+                "id": 86,
+                "name": "Flashfire",
+                "slug": "flashfire",
+                "released_at": "2014-05-07",
+                "logo": "https://images.tcggo.com/tcggo/storage/11882/flashfire-logo.png",
+                "code": "FLF",
+                "cards_total": 110,
+                "cards_printed_total": 106,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1445.98,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1528.81,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 5,
+                    "name": "XY",
+                    "slug": "xy"
+                }
+            },
+            "artist": {
+                "id": 457,
+                "name": "Eske Yoshinob",
+                "slug": "eske-yoshinob"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/11894/charizard-ex-flf-11-flashfire-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/flashfire/charizard-ex-11-1",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/11806"
+            }
+        },
+        {
+            "id": 11807,
+            "name": "Charizard-EX",
+            "name_numbered": "Charizard-EX 12",
+            "slug": "charizard-ex",
+            "card_code_number": "FLF 12",
+            "type": "singles",
+            "card_number": 12,
+            "hp": 180,
+            "rarity": "Rare Holo EX",
+            "supertype": "Pokémon",
+            "tcgid": "xy2-12",
+            "cardmarket_id": 281495,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 17,
+                    "lowest_near_mint_EU_only": 22,
+                    "lowest_near_mint_DE": 54.99,
+                    "lowest_near_mint_DE_EU_only": 54.99,
+                    "lowest_near_mint_FR": 34.9,
+                    "lowest_near_mint_FR_EU_only": 34.9,
+                    "lowest_near_mint_ES": 19,
+                    "lowest_near_mint_ES_EU_only": 19,
+                    "lowest_near_mint_IT": null,
+                    "lowest_near_mint_IT_EU_only": null,
+                    "30d_average": 23.35,
+                    "7d_average": 19.24,
+                    "available_items": 123,
+                    "graded": {
+                        "psa": {
+                            "psa10": 379,
+                            "psa9": 89
+                        }
+                    }
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "cgc": {
+                            "10": {
+                                "median_price": 123.9,
+                                "sample_size": 1
+                            },
+                            "9": {
+                                "median_price": 28.74,
+                                "sample_size": 2
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 335.67,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 58.18,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 35.72,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 13.63,
+                                "sample_size": 2
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 13.65,
+                    "mid_price": 12.78
+                }
+            },
+            "episode": {
+                "id": 86,
+                "name": "Flashfire",
+                "slug": "flashfire",
+                "released_at": "2014-05-07",
+                "logo": "https://images.tcggo.com/tcggo/storage/11882/flashfire-logo.png",
+                "code": "FLF",
+                "cards_total": 110,
+                "cards_printed_total": 106,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1445.98,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1528.81,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 5,
+                    "name": "XY",
+                    "slug": "xy"
+                }
+            },
+            "artist": {
+                "id": 609,
+                "name": "PLANETA",
+                "slug": "planeta"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/11895/charizard-ex-flf-12-flashfire-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/flashfire/charizard-ex-12-1",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/11807"
+            }
+        },
+        {
+            "id": 11896,
+            "name": "Charizard-EX",
+            "name_numbered": "Charizard-EX 100",
+            "slug": "charizard-ex",
+            "card_code_number": "FLF 100",
+            "type": "singles",
+            "card_number": 100,
+            "hp": 180,
+            "rarity": "Rare Ultra",
+            "supertype": "Pokémon",
+            "tcgid": "xy2-100",
+            "cardmarket_id": 281583,
+            "tcgplayer_id": 91238,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 202.42,
+                    "lowest_near_mint_EU_only": 250,
+                    "lowest_near_mint_DE": 749,
+                    "lowest_near_mint_DE_EU_only": 749,
+                    "lowest_near_mint_FR": 999,
+                    "lowest_near_mint_FR_EU_only": 999,
+                    "lowest_near_mint_ES": 179.99,
+                    "lowest_near_mint_ES_EU_only": 179.99,
+                    "lowest_near_mint_IT": 299.45,
+                    "lowest_near_mint_IT_EU_only": 299.45,
+                    "30d_average": 152.97,
+                    "7d_average": 140.44,
+                    "available_items": 109,
+                    "graded": {
+                        "psa": {
+                            "psa9": 430
+                        }
+                    }
+                },
+                "ebay": {
+                    "currency": "USD",
+                    "graded": {
+                        "ace": {
+                            "8": {
+                                "median_price": 158.86,
+                                "sample_size": 1
+                            },
+                            "7": {
+                                "median_price": 155.58,
+                                "sample_size": 1
+                            }
+                        },
+                        "bgs": {
+                            "9": {
+                                "median_price": 387.89,
+                                "sample_size": 1
+                            },
+                            "8": {
+                                "median_price": 280,
+                                "sample_size": 1
+                            }
+                        },
+                        "cgc": {
+                            "9": {
+                                "median_price": 413,
+                                "sample_size": 1
+                            },
+                            "8": {
+                                "median_price": 156.14,
+                                "sample_size": 2
+                            }
+                        },
+                        "psa": {
+                            "10": {
+                                "median_price": 6769.73,
+                                "sample_size": 5
+                            },
+                            "9": {
+                                "median_price": 600,
+                                "sample_size": 5
+                            },
+                            "8": {
+                                "median_price": 310.58,
+                                "sample_size": 5
+                            },
+                            "7": {
+                                "median_price": 225.68,
+                                "sample_size": 5
+                            }
+                        },
+                        "tag": {
+                            "7": {
+                                "median_price": 149.43,
+                                "sample_size": 1
+                            }
+                        }
+                    }
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 229.33,
+                    "mid_price": 219.18
+                }
+            },
+            "episode": {
+                "id": 86,
+                "name": "Flashfire",
+                "slug": "flashfire",
+                "released_at": "2014-05-07",
+                "logo": "https://images.tcggo.com/tcggo/storage/11882/flashfire-logo.png",
+                "code": "FLF",
+                "cards_total": 110,
+                "cards_printed_total": 106,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1445.98,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1528.81,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 5,
+                    "name": "XY",
+                    "slug": "xy"
+                }
+            },
+            "artist": {
+                "id": 550,
+                "name": "Ryo Ueda",
+                "slug": "ryo-ueda"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/11984/charizard-ex-flf-100-flashfire-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/flashfire/charizard-ex-100",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/11896",
+                "tcgplayer": "https://www.tcggo.com/external/tcgplayer/11896"
+            }
+        }
+    ],
+    "paging": {
+        "current": 1,
+        "total": 25,
+        "per_page": 20
+    },
+    "results": 498
+}

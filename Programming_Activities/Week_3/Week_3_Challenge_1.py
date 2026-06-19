@@ -67,19 +67,7 @@ while atm_active > 0 :
             print("\n0 - Quit")
             main_menu_sel = int(input("\nMake your Selection:  "))
             main_menu_check = True
-        while main_menu_check:
-            for num in main_menu_choice:
-                if num == main_menu_sel:
-                    main_menu_check = False
-                    break
-            if num != main_menu_sel:
-                    print("\nThat number is invalid, please try again ")
-                    print("\n4 - Return t0 Main Menu")
-                    print("\n3 - Account Balance")
-                    print("\n2 - Make another Deposit")
-                    print("\n1 - Make a Withdrawl")
-                    print("\n0 - Quit")
-                    main_menu_sel = int(input("\nMake your selection:  "))
+        
 
     elif main_menu_sel == 1:
         withdraw = int(input("\nHow much would you like to Withdraw? "))
