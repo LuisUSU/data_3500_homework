@@ -1,12 +1,16 @@
 #FINAL PROJECT - Pokemon Card Pricing and Collection Application - Luis Cotton
 
-#finish card search menu
-#finish search for sealed price menu
-#finish buy list menu
-#finish wishlist menu
-#finish personal collection menu
-#finish vendor collection menu
-#finish quick percentage calculator menu
+#finish search for sealed price menu = search for sealed price and json file reading and writing
+#finish copying over code to functions and renaming variables
+#finish buy list menu = 1 new buylist dictionary json file that adds cards based on user card searches
+#adds only the card name and raw near mint price, until they've told they do not want to add more,
+#adds the prices up, and multiplies the total by the given percentage, gives a list with the total price and percentage of total price with card names
+
+#IF I HAVE TIME
+#update price function for wishlist, personal singles collection, personal sealed collection, vendor collection json files
+#search and add names to a list from json files, then search the card names and append them to a new dictionary,
+#and a newUpdatedPrices file, figure out how much things have changed then write to a new key in the cards history key
+#wishlist json, personal singles collection, personal sealed collection, vendor collection
 
 #Imports API Program
 
@@ -34,7 +38,7 @@ availableSetPrices = []
 availableSetsDictionary = {}
 #Main Application Variables
 programActive = True #boolean to check if you have quit the app
-menuSelect = 0
+menuSelect = -1
 menuSelect_numValidCheck = False
 menuChoices = []
 
@@ -84,129 +88,316 @@ quickPercentageCalculate_menu = False
 
 #functions
 
-#Wishlist Functions
-def printWishList():
-    print("print available wishlist dictionaries that can be printed and ask the user which one to print ")
-    print("print entire wishlist","print wishlist price total")
-    #print the wishlist dictionary from json file
-def wishlistCardSearch():
-    print("search for a card for your personal collection")
-    print("if user wants to add card to wishlist ask which wishlist dictionary entry they would like to add it to")#return the chosen wishlist ID for the next function
-    print("available wishlists to add card to")
-    print("add:  ","charmander","to your collection? Y/N")#if no then search for a new card or go to main menu and saving the json file
-def addToWishlist():
-    print("card added to wishlist")
-    #add card to json wishlist file
-def removeFromWishlist():
-    print("card removed from wishlist")
-    #remove card from wishlist
-def calculateWishListTotalPrice():
-    print("return and update wishlist total price to dictionary file variable")
-def saveNewWishlist():
-    print("save wishlist+1 as a new dictionary in the wishlist json file")
-    #ask for name for wishlist and save into ONE json file for all wishlists
-def deleteWishlist():
-    print("delete wishlist dictionary item list")
-    print("ask again if they want it deleted")
-    print("deleted wishlist#3 from json file")
-    #delete and ask for permission to delete dictionary from wishlist json file
+#new card search functions
+def newCardSearch(searchQuery):
+    url = "/cards?search="
+    url2 = "&rapidapi-key=9253f78de8msh854c4d0e982097ep1c10f8jsn8fa2fb1ae50d"
+    searchQueryString = searchQuery
+    searchQuery = searchQueryString.replace(" ", "+")
+    fullUrl = str(url + searchQuery + url2)
+    #print(fullUrl)
+    conn = http.client.HTTPSConnection("pokemon-tcg-api.p.rapidapi.com")
+    conn.request("GET", fullUrl)
+    response = conn.getresponse()
+    newCardSearchQuery = response.read().decode()
+    #currentFullCardSearchDictionary = newCardSearchQuery
+    #print(response.read().decode())
+    conn.close()
 
-#Personal Collection Functions
-def printPersonalCollection():
+    #write card search to json file
+    with open("/workspaces/data_3500_homework/final_project/newCardSearchQuery.json", "w", encoding = "utf-8") as file:
+        newCardSearchQuery = json.loads(newCardSearchQuery)
+        json.dump(newCardSearchQuery, file, ensure_ascii = False, indent = 4)
+        print("\nSaved Card Search to newCardSearchQuery.json!")
+
+    # Extract the list of objects inside the "data" key
+    with open("/workspaces/data_3500_homework/final_project/newCardSearchQuery.json", "r") as file:
+        print("\nOpening Current Card Search file....")
+        currentCardSearchJsonDictionary = json.load(file)
+        currentFullCardSearchDictionary = currentCardSearchJsonDictionary.get("data", [])
+    #We get the name of the card in the first dictionary position then we end this loop
+    for item in currentFullCardSearchDictionary:
+        cardName = item.get("name", "")
+        break
+    return (cardName,currentFullCardSearchDictionary)
+#filter new card search keys for new dictionary
+def newCardSearchFilter(cardName,currentFullCardSearchDictionary):
+    for item in currentFullCardSearchDictionary:
+        #get names of the card sets
+        cardNameKey = item.get("name", "")
+        if cardName == cardNameKey:
+            cardSetKey = item.get("episode").get("name","")
+            cardSetAcronym = item.get("episode").get("code","")
+            cardNumberKey = item.get("card_number", "")
+            cardRarityKey = item.get("rarity", "")
+            currentRawPrice = item.get("prices").get("cardmarket").get("lowest_near_mint","")
+            current30DayPriceAve = item.get("prices").get("cardmarket").get("30d_average","")
+            current7DayPriceAve = item.get("prices").get("cardmarket").get("7d_average","")
+            cardPSA10Price = item.get("prices",{}).get("ebay",{}).get("graded",{}).get("psa",{}).get("10",{}).get("median_price",{})
+            currentFilteredCardSearchDictionary = {"name": cardNameKey, "set_name": cardSetKey,"code": cardSetAcronym,"card_number": cardNumberKey,"rarity": cardRarityKey,"current_near_mint_price": currentRawPrice,"30_Day_Price_Average": current30DayPriceAve,"7_Day Price_Average": current7DayPriceAve,"PSA_10_Card_Price": cardPSA10Price}
+        return cardNameKey,currentFilteredCardSearchDictionary
+
+#sealed search functions
+def newSealedSearch(searchQuery):
+    return
+#filter sealed search keys for new dictionary
+def newSealedSearchFilter(sealedName,currentFullSealedSearchDictionary)
+    return
+
+#IF I HAVE TIME
+#search and save new search queries of names of cards in json file
+def updatePrices():
+    return
+
+#commit and write update list to JSON file, that is named after where the call originated, based on the menu that was active
+def commitNewUpdatedPrices()
+    return
+#Buy List Functions
+
+#print saved buy list
+def printBuyList()
+    return
+
+#add cards to new buy list
+def addToBuyList():
+    print("added:  ","surfing pikachu","to Buy List","\nadd another card? Y/N")
+    #add card to buy list and ask if they want to add another or calculate price and percentage
+
+#remove cards from new buy list
+def removeFromBuyList():
+    print("removed:  ","surfing pikachu","from Buy List","\nadd another card? Y/N")
+
+#calculate the new buy list total price and ask if they want to divide by a certain percentage
+def calculateBuyListTotalPrice():
+    print("calculated buy list total of all added card prices in dictionary")
+    #calculate and add the total price of all cards in list and ask if they want a percentage
+
+#save new buy list to old buy list json file
+def saveNewBuyList():
+    print("buy list saved to json file")
+    #save buy list to json file
+
+#clear new buy list 
+def clearCurrentBuyList():
+    print("delete buy list dictionary from buy list dictionary json file")
+
+#delete old buy list json file dictionary
+def deleteBuyList():
+    print("buy list is cleared")
+    #delete all information in dynamic buy list so it's ready for a new list that is not saved to json file
+
+
+#wishlist functions
+
+#print wishlist as a list
+def printWishList():
+    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
+        wishlist = json.load(file)
+        wishlistDictionary = wishlist
+        wishlistNameList = wishlist.get("wishlist", [])
+        cardNameList = []
+        for item in wishlistNameList:
+            cardNameList.append(item)
+        print("\nCards in your Wishlist:")
+        print()
+        for names in cardNameList:
+            print(names)
+    return
+
+#search for a card and add it to wishlist json
+def addToWishlist(newCardName,newCardSearchDictionary):
+    #open wishilst file
+    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
+        wishlist = json.load(file)
+        wishlist["wishlist"][newCardName]= newCardSearchDictionary
+    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "w", encoding = "utf-8") as file:
+        json.dump(wishlist, file, ensure_ascii = False, indent = 4)   
+    return newCardName
+
+#remove a card from the wishlist
+def removeFromWishlist():
+    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
+        wishlist = json.load(file)
+        wishlistDictionary = wishlist
+        wishlistNameList = wishlist.get("wishlist", [])
+        cardNameList = []
+        for item in wishlistNameList:
+            cardNameList.append(item)
+        print("\nCards in your Wishlist:")
+        print()
+        for names in cardNameList:
+            print(names)
+    cardNameRemove = input("\nWhich card would you like to remove?  ")
+    removeFromWishlist = True
+    while removeFromWishlist == True:
+            wishlistDictionaryNames = wishlistDictionary.get("wishlist",[])
+            for name in wishlistDictionaryNames:
+                print(name)
+                if name == cardNameRemove:
+                    del wishlistDictionary["wishlist"][name]
+                    print()
+                    print(cardNameRemove,"was removed from your wishlist!")
+                    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "w", encoding = "utf-8") as file:
+                        json.dump(wishlistDictionary,file,ensure_ascii = False, indent = 4)
+                        removeFromWishlist = False
+                    break
+    return
+
+#ask user if they are sure they want to delete wishlist contents
+def deleteWishlist():
+    areYouReallySure = True
+    while areYouReallySure == True:
+        areYouSure = input("Are you sure you want to delete your entire Wishlist[Y/N]?")
+        if areYouSure in ("n","N","y","Y"):
+            if areYouSure in ("n","N"):
+                areYouReallySure = False
+                break
+            if areYouSure in ("y","Y"):
+                with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
+                    wishlistDictionary = json.load(file)
+                    del wishlistDictionary["wishlist"]
+                with open("/workspaces/data_3500_homework/final_project/wishlist.json", "w", encoding = "utf-8") as file:
+                    wishlistDictionary["wishlist"] = {}
+                    json.dump(wishlistDictionary,file,ensure_ascii = False, indent = 4)
+                    print("\nAll cards in Wishlist have been removed!")
+                    areYouReallySure = False
+            else:
+                print("that is not a valid selection")
+                continue
+    return
+
+#calculate total price of cards within wishlist
+def calculateWishListTotalPrice():
+    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
+        wishlist = json.load(file)
+        wishlistPriceList = []
+        for subdict in wishlist.values():
+            for key, value in subdict.items():
+                wishlistCardPrice = round(value.get("current_near_mint_price"),2)
+                wishlistPriceList.append(wishlistCardPrice)
+        totalWishlistPrice = sum(wishlistPriceList)
+        print("Wishlist Total Price:", totalWishlistPrice)
+    return
+
+#Personal Singles Collection Functions
+
+#print personal singles collection json as a list
+def printPersonalSinglesCollection():
     print("print available personal collection dictionaries that can be printed and ask the user which one to print ")
     print("entire personal collection list","\nPersonal Collection Price")
     #read and print full personal collection from json file
-def personalCollectionCardSearch():
+
+#search for a card and add it to personal singles collection json
+def addToPersonalSinglesCollection(newCardName,newCardSearchDictionary):
+    #open personal collection file
+    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "r", encoding = "utf-8") as file:
+        personalCollection = json.load(file)
+        personalCollection["personal_collection"][newCardName]= newCardSearchDictionary
+    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "w", encoding = "utf-8") as file:
+        json.dump(personalCollection, file, ensure_ascii = False, indent = 4)   
+    return newCardName
+
+#remove card from personal singles collection
+def removeFromPersonalSinglesCollection():
+    print("removed from collection")
+    #remove card from json personal collection json file
+
+#delete personal singles collection
+def deletePersonalSinglesCollection():
     print("search for a card for your personal collection")
     print("ask user which personal collection dictionary entries to add the card to")#return the chosen personal collection ID for the next function
     print("add:  ","charmander","to your collection? Y/N")#if no then search for a new card or go to main menu and saving the json file
-def addToPersonalCollection():
-    print("added to collection")
-    #add card to json personal collection json file
-def removeFromPersonalCollection():
-    print("removed from collection")
-    #remove card from json personal collection json file
-def calculatePersonalCollectionTotalPrice():
+
+#calculate total price of all cards in personal singles collection json
+def calculatePersonalSinglesCollectionTotalPrice():
     print("calculate total price of personal collection in realtime prices and print the total price added")
     #calculate total price of all items in personal collection from json file
-def calculatePersonalCollectionTotalProfit():
-    print("calculate the profit of the total price of all the cards when they where first added and the difference between realtime updated pricing with a percent")
-    print("Total Collection Percentage Increase")
-    print("Total Collection Price")
-    #calculate the percent and total cash profit of entire collection from the price they where first added to the new updated price
-def calculatePersonalCollectionSingleTotalProfit():
-    print("calculate the profit of the cards price when first added and the difference of the realtime updated price")
-    #calculate the percent and total cash profit of a single card in your personal collection from the price they where first added to the new updated price
-def saveNewPersonalCollection():
-    print("create and save a new personal collection dictionary into the personal collection dictionary json file")
-    #save new dictionary into personal collection dictionary with a new name for the dictionary called by a number
-def deletePersonalCollection():
-    print("delete specific saved dictionary in personal collection dicitonary ")
-    print("ask if the user is sure they want to delete the dictionary")
-    #delete personal collection dictionary in personal collection dictionary json file
+
+#Personal Sealed Collection Functions
+
+#print personal sealed collection json as a list
+def printPersonalSealedCollection():
+    print("print available personal collection dictionaries that can be printed and ask the user which one to print ")
+    print("entire personal collection list","\nPersonal Collection Price")
+    #read and print full personal collection from json file
+
+#search for a card and add it to personal sealed collection json
+def addToPersonalSealedCollection(newCardName,newCardSearchDictionary):
+    #open personal collection file
+    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "r", encoding = "utf-8") as file:
+        personalCollection = json.load(file)
+        personalCollection["personal_collection"][newCardName]= newCardSearchDictionary
+    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "w", encoding = "utf-8") as file:
+        json.dump(personalCollection, file, ensure_ascii = False, indent = 4)   
+    return newCardName
+
+#remove card from personal sealed collection
+def removeFromPersonalSealedCollection():
+    print("removed from collection")
+    #remove card from json personal collection json file
+
+#delete personal sealed collection
+def deletePersonalSealedCollection():
+    print("search for a card for your personal collection")
+    print("ask user which personal collection dictionary entries to add the card to")#return the chosen personal collection ID for the next function
+    print("add:  ","charmander","to your collection? Y/N")#if no then search for a new card or go to main menu and saving the json file
+
+#calculate total price of all cards in personal sealed collection json
+def calculatePersonalSealedCollectionTotalPrice():
+    print("calculate total price of personal collection in realtime prices and print the total price added")
+    #calculate total price of all items in personal collection from json file
+
 
 #Vendor Collection Functions
+
+#print vendor collection json as a list with prices attached
 def printVendorCollection():
     print("print available vendor collection dictionaries that can be printed and ask the user which one to print ")
     print("total vendor collection dictionary list")
     #read and print total vendor collection list from json file
-def vendorCollectionCardSearch():
+
+#search for a card and add it to vendor collection
+def addToVendorCollection(newCardName,newCardSearchDictionary):
+    #open vendor collection file
+    with open("/workspaces/data_3500_homework/final_project/vendor_collection.json", "r", encoding = "utf-8") as file:
+        vendorCollection = json.load(file)
+        vendorCollection["vendor_collection"][newCardName]= newCardSearchDictionary
+    with open("/workspaces/data_3500_homework/final_project/vendor_collection.json", "w", encoding = "utf-8") as file:
+        json.dump(vendorCollection, file, ensure_ascii = False, indent = 4)   
+    return newCardName
+    #add card to json vendor collection json file
+
+#remove a card from vendor collection json file
+def removeFromVendorCollection():
     print("Search and add or just view card price from Vendor Collection Menu")
     print("ask user which vendor collection dictionarie entries to add the card to")#return the chosen vendor collection ID for the next function
     print("add:  ","charmander","to your vendor collection? Y/N")#if no then search for a new card or go to main menu and saving the json file
-def addToVendorCollection():
-    print("flying pikachu","added to vendor collection")
-    #add card to json vendor collection json file
-def removeFromVendorCollection():
+
+#delete vendor collection
+def deleteVendorCollection():
     print("flying pikachu","removed from vendor collection")
     #remove card from json vendor collection json file
+
+#calculate the total price of all items in vendor collection json
 def calculateVendorCollectionTotalProfit():
     print("total vendor collection profit from first price to price today")
     #calculcate total percentage and total profit price of vendor collection json file
-def calculateVendorCollectionSingleTotalProfit():
-    print("total profit and total percentage of profit of a single card in vendor collection")
-    #calculate total percentage and total profit price of a single card from vendor collection json file
-def saveNewVendorCollection():
-    print("save new vendor collection dictionary to the vendor collection dictionary json file")
-    #append new vendor collection dictionary to the vendor collection dictionary json file
-def deleteVendorCollection():
+
     print("delete specific saved vendor collection dictionary entry in vendor collection dicitonary ")
     print("ask if the user is sure they want to delete the dictionary")
     #delete vendor dictionary in vendor collection dictionary json file
 
 
-#Buy List Functions
-def printBuyList():
-    print("print available buy list dictionaries that can be printed and ask the user which one to print ")
-    print("total buy list dictionary list of buy list id")
-    #read and print total vendor collection list from json file
-def buyListCardSearch():
-    print("Search for a card for Buy List")
-    print("ask user which buylist dictionary entries to add the card to")#return the chosen buylist ID for the next function
-    print("add:  ","charmander","to your buy list? Y/N")#if no then search for a new card or go to main menu and saving the json file
-def addToBuyList():
-    print("added:  ","surfing pikachu","to Buy List","\nadd another card? Y/N")
-    #add card to buy list and ask if they want to add another or calculate price and percentage
-def removeFromBuyList():
-    print("removed:  ","surfing pikachu","from Buy List","\nadd another card? Y/N")
-def calculateBuyListTotalPrice():
-    print("calculated buy list total of all added card prices in dictionary")
-    #calculate and add the total price of all cards in list and ask if they want a percentage
-def calculateBuyListPercentage():
-    print("the percentage total for the total price of buy list is:  ")
-    #calculate the price of the total price multiplied by percentage of the buy list
-def saveNewBuyList():
-    print("buy list saved to json file")
-    #save buy list to json file
-def deleteBuyList():
-    print("delete buy list dictionary from buy list dictionary json file")
-def clearBuyList():
-    print("buy list is cleared")
-    #delete all information in dynamic buy list so it's ready for a new list that is not saved to json file
-
-#Quick Percentage Calculator
-def percentageCalculator (): #need variables, card price and what percentage to calculate
-    print("original card price:  ","0","\n ")
+#Quick Percentage Calculator Function
+def percentageCalculator(): #need variables, card price and what percentage to calculate
+    print()
+    total= round(int(input("Input price:  ")),2)
+    percentage = round(int(input("Enter your percentage(ex: 80):  ")),2)
+    percentage = percentage / 100
+    totalPercentage = total * percentage
+    print()
+    print("Original price: ",total)
+    print("Your percentage price is:  ", totalPercentage)
 
 while programActive == True: #checking if the application is currently running
 
@@ -223,25 +414,51 @@ while programActive == True: #checking if the application is currently running
         appActive = True
 
         #print options and welcome message
+        print()
         print("\nWelcome to Luis Cotton's Pokemon Card Management Program")
         print("\nMain Menu")
-        print("\n1 - Search for Card Price")
-        print("\n2 - Search for Sealed Product Price")
-        print("\n3 - Set Prices")
-        print("\n4 - Buy List Menu")
-        print("\n5 - Wishlist Menu")
-        print("\n6 - Personal Collection Menu")
-        print("\n7 - Vendor Collection Menu")
-        print("\n8 - Quick Percentage Calculation")
-        print("\n9 - Quit Program")
+        print()
+        print("1 - Search for Card Price")
+        print("2 - Search for Sealed Product Price")
+        print("3 - Set Prices")
+        print("4 - Buy List Menu")
+        print("5 - Wishlist Menu")
+        print("6 - Personal Singles Collection Menu")
+        print("7 - Personal Sealed Collection Menu")
+        print("8 - Vendor Collection Menu")
+        print("9 - Quick Percentage Calculation")
+        print("0 - Quit Program")
 
         #set main menu choices
-        menuChoices = [1,2,3,4,5,6,7,8,9]
+        menuChoices = [0,1,2,3,4,5,6,7,8,9]
 
         #ask what menu option the user wants to select
-        menuSelect = int(input("\nPlease input your selection[1-9]:  "))
-        menuSelect_numValidCheck = True
-
+        menuString = input("\nPlease input your selection[0-9]:  ")
+        menuStringIsNum = menuString.isnumeric()
+        menuStringCheck = True
+        #check if the input is a number or a string of letters
+        while menuStringCheck == True:
+            if menuStringIsNum == False:
+                #ask for menu selection again
+                print("\nMust be a number, that is not a valid selection, please try again")
+                print()
+                print("1 - Search for Card Price")
+                print("2 - Search for Sealed Product Price")
+                print("3 - Set Prices")
+                print("4 - Buy List Menu")
+                print("5 - Wishlist Menu")
+                print("6 - Personal Singles Collection Menu")
+                print("7 - Personal Sealed Collection Menu")
+                print("8 - Vendor Collection Menu")
+                print("9 - Quick Percentage Calculation")
+                print("0 - Quit Program")
+                menuString = input("\nPlease input your selection[0-9]:  ")
+                menuStringIsNum = menuString.isnumeric()
+                continue#goes back to check if it's a number at the top of while statement if it is then it turns to an int and goes to menu functions
+            else:
+                menuSelect = int(menuString)
+                menuSelect_numValidCheck = True
+                menuStringCheck = False
         #checks if the number inputed is available in the menu selection choices
         while menuSelect_numValidCheck == True:
             if menuSelect in menuChoices:
@@ -253,7 +470,8 @@ while programActive == True: #checking if the application is currently running
                     setPrices_menu = False
                     buyList_menu = False
                     wishlist_menu = False
-                    personalCollection_menu = False
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = False
                     vendorCollection_menu = False
                     quickPercentageCalculate_menu = False
                     programActive = True
@@ -266,7 +484,8 @@ while programActive == True: #checking if the application is currently running
                     setPrices_menu = False
                     buyList_menu = False
                     wishlist_menu = False
-                    personalCollection_menu = False
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = False
                     vendorCollection_menu = False
                     quickPercentageCalculate_menu = False
                     programActive = True
@@ -279,7 +498,8 @@ while programActive == True: #checking if the application is currently running
                     setPrices_menu = True
                     buyList_menu = False
                     wishlist_menu = False
-                    personalCollection_menu = False
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = False
                     vendorCollection_menu = False
                     quickPercentageCalculate_menu = False
                     programActive = True
@@ -292,7 +512,8 @@ while programActive == True: #checking if the application is currently running
                     setPrices_menu = False
                     buyList_menu = True
                     wishlist_menu = False
-                    personalCollection_menu = False
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = False
                     vendorCollection_menu = False
                     quickPercentageCalculate_menu = False
                     programActive = True
@@ -305,59 +526,78 @@ while programActive == True: #checking if the application is currently running
                     setPrices_menu = False
                     buyList_menu = False
                     wishlist_menu = True
-                    personalCollection_menu = False
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = False
                     vendorCollection_menu = False
                     quickPercentageCalculate_menu = False
                     programActive = True
                     mainMenu = False
                     break
-                #Personal Collection Menu
+                #Personal Singles Collection Menu
                 if menuSelect == 6:
                     searchCardPrice_menu = False
                     searchSealedPrice_menu = False
                     setPrices_menu = False
                     buyList_menu = False
                     wishlist_menu = False
-                    personalCollection_menu = True
+                    personalSinglesCollection_menu = True
+                    personalSealedCollection_menu = False
                     vendorCollection_menu = False
                     quickPercentageCalculate_menu = False
                     programActive = True
                     mainMenu = False
                     break
-                #Vendor Collection Menu
+                #Personal Sealed Collection Menu
                 if menuSelect == 7:
                     searchCardPrice_menu = False
                     searchSealedPrice_menu = False
                     setPrices_menu = False
                     buyList_menu = False
                     wishlist_menu = False
-                    personalCollection_menu = False
-                    vendorCollection_menu = True
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = True
+                    vendorCollection_menu = False
                     quickPercentageCalculate_menu = False
                     programActive = True
                     mainMenu = False
                     break
-                #Quick Percentage Calculator Menu
+                #Vendor Collection Menu
                 if menuSelect == 8:
                     searchCardPrice_menu = False
                     searchSealedPrice_menu = False
                     setPrices_menu = False
                     buyList_menu = False
                     wishlist_menu = False
-                    personalCollection_menu = False
-                    vendorCollection_menu = False
-                    quickPercentageCalculate_menu = True
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = False
+                    vendorCollection_menu = True
+                    quickPercentageCalculate_menu = False
                     programActive = True
                     mainMenu = False
                     break
-                #Quit Selected
+                #Quick Percentage Calculator Menu
                 if menuSelect == 9:
                     searchCardPrice_menu = False
                     searchSealedPrice_menu = False
                     setPrices_menu = False
                     buyList_menu = False
                     wishlist_menu = False
-                    personalCollection_menu = False
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = False
+                    vendorCollection_menu = False
+                    quickPercentageCalculate_menu = True
+                    programActive = True
+                    mainMenu = False
+                    break
+                #Quit Selected
+                if menuSelect == 0:
+                    searchCardPrice_menu = False
+                    searchSealedPrice_menu = False
+                    setPrices_menu = False
+                    buyList_menu = False
+                    wishlist_menu = False
+                    personalSinglesCollection_menu = False
+                    personalSealedCollection_menu = False
                     vendorCollection_menu = False
                     quickPercentageCalculate_menu = False
                     programActive = False
@@ -366,132 +606,152 @@ while programActive == True: #checking if the application is currently running
             else:
                 #variables print checks
                 print("That is not a valid selection, please try again")
-                print("\n1 - Search for Card Price")
-                print("\n2 - Search for Sealed Product Price")
-                print("\n3 - Set Prices")
-                print("\n4 - Buy List Menu")
-                print("\n5 - Wishlist Menu")
-                print("\n6 - Personal Collection Menu")
-                print("\n7 - Vendor Collection Menu")
-                print("\n8 - Quick Percentage Calculation")
-                print("\n9 - Quit Program")
-                menuSelect = int(input("\nPlease input your selection[1-9]:  "))
+                print()
+                print("1 - Search for Card Price")
+                print("2 - Search for Sealed Product Price")
+                print("3 - Set Prices")
+                print("4 - Buy List Menu")
+                print("5 - Wishlist Menu")
+                print("6 - Personal Singles Collection Menu")
+                print("7 - Personal Sealed Collection Menu")
+                print("7 - Vendor Collection Menu")
+                print("8 - Quick Percentage Calculation")
+                print("9 - Quit Program")
+                menuString = input("\nPlease input your selection[0-9]:  ")
+                menuSelect = menuString.isnumeric()
     
-    #If you are searching for a specific card price
+    #Search for Card Price Menu
     while searchCardPrice_menu == True:#Card Search Menu Interactions, Menu Selections
-        url = "/cards?search="
-        url2 = "&rapidapi-key=9253f78de8msh854c4d0e982097ep1c10f8jsn8fa2fb1ae50d"
-        searchQueryString = input("What card are you lookign for?  ")
-        searchQuery = searchQueryString.replace(" ", "+")
-        fullUrl = str(url + searchQuery + url2)
-        print(fullUrl)
-        conn = http.client.HTTPSConnection("pokemon-tcg-api.p.rapidapi.com")
-        conn.request("GET", fullUrl)
-        response = conn.getresponse()
-        newCardSearchQuery = response.read().decode()
-        #currentFullCardSearchDictionary = newCardSearchQuery
-        #print(response.read().decode())
-        conn.close()
-        #write card search to json file
-        with open("/workspaces/data_3500_homework/final_project/newCardSearchQuery.json", "w", encoding = "utf-8") as file:
-            newCardSearchQuery = json.loads(newCardSearchQuery)
-            json.dump(newCardSearchQuery, file, ensure_ascii = False, indent = 4)
-            print("\nSaved Card Search to newCardSearchQuery.json!")
+        searchingForCard = True
+        while searchingForCard == True:
+            searchQueryString = input("\nWhat card do you want to search for?  ")
+            cardName,currentFullCardSearchDictionary = newCardSearch(searchQueryString)
+            cardName,currentCardSearchDictionary = newCardSearchFilter(cardName,currentFullCardSearchDictionary)
+            print("\n",cardName)
+            print("\n",currentCardSearchDictionary)
+            cardSearchSaveToWishlist = True
+            searchingForCard = False
 
-        # Extract the list of objects inside the "data" key
-        with open("/workspaces/data_3500_homework/final_project/newCardSearchQuery.json", "r") as file:
-            print("\nOpening Current Card Search file....")
-            currentFullCardSearchDictionary = json.load(file)
-            currentFullCardSearchDictionary = currentFullCardSearchDictionary.get("data", [])
-        #We get the name of the card in the first dictionary position then we end this loop
-        for item in currentFullCardSearchDictionary:
-                cardName = item.get("name", "")
-                break
-        # Iterate through each item in the json list pulling our keys and adding to new dictionary
-        for item in currentFullCardSearchDictionary:
-            #get names of the card sets
-            cardNameKey = item.get("name", "")
-            if cardName == cardNameKey:
-                cardSetKey = item.get("episode").get("name","")
-                cardSetAcronym = item.get("episode").get("code","")
-                cardNumberKey = item.get("card_number", "")
-                cardRarityKey = item.get("rarity", "")
-                currentRawPrice = item.get("prices").get("cardmarket").get("lowest_near_mint","")
-                current30DayPriceAve = item.get("prices").get("cardmarket").get("30d_average","")
-                current7DayPriceAve = item.get("prices").get("cardmarket").get("7d_average","")
-                cardPSA10Price = item.get("prices",{}).get("ebay",{}).get("graded",{}).get("psa",{}).get("10",{}).get("median_price",{})
-                currentFilteredCardSearchDictionary = [cardNameKey, cardSetKey, cardSetAcronym, cardNumberKey, cardRarityKey, currentRawPrice, current30DayPriceAve,current7DayPriceAve,cardPSA10Price]
-                currentCardSearchDictionary = currentFilteredCardSearchDictionary
-                cardSearchSaveToWishlist = True
-                if cardSearchSaveToWishlist == True:
-                    saveSearchCardToWishlist = input("Would you like to save this card to your Wishlist[Y/N]?")
-                    if saveSearchCardToWishlist in ("n","N","y","Y"):
-                        if saveSearchCardToWishlist in ("n","N"):
+        #ask to save to wishlist json file
+        while cardSearchSaveToWishlist == True:
+            saveSearchCardToWishlist = input("\nWould you like to save this card to your Wishlist[Y/N]?")
+            if saveSearchCardToWishlist in ("n","N","y","Y"):
+                if saveSearchCardToWishlist in ("n","N"):
+                    cardSearchSaveToPersonalCollection = True
+                    cardSearchSaveToWishlist = False
+                if saveSearchCardToWishlist in ("y","Y"):
+                    cardName = addToWishlist(cardName,currentCardSearchDictionary)
+                    print("\n",cardName,"was added to Wishlist!")
+                    cardSearchAgain = input("\nSearch for another card[Y/N]?") 
+                    if cardSearchAgain in ("n","N","y","Y"):
+                        if cardSearchAgain in ("n","N"):
                             cardSearchSaveToPersonalCollection = True
                             cardSearchSaveToWishlist = False
-                        if saveSearchCardToWishlist in ("y","Y"):
-                            #code for appending to wishlist json file here
-                            print("saved to wishlist")
-                            #searchAgain = input("Search for another card[Y/N]?") #search for another card code and input check here
-                            print("search another card[Y/N]?")
-                if cardSearchSaveToPersonalCollection == True:
-                    saveSearchCardToPersonalCollection = input("Would you like to save this card to your Personal Collection[Y/N]?")
-                    if saveSearchCardToPersonalCollection in ("n","N","y","Y"):
-                        if saveSearchCardToPersonalCollection in ("n","N"):
-                            cardSearchSaveToVendorCollection = True
-                            cardSearchSaveToPersonalCollection = False
-                        if saveSearchCardToPersonalCollection in ("y","Y"):
-                            #code for appending to personal collection json file here
-                            print("saved to personal collection")
-                            print("search another card[Y/N]?")
-                if cardSearchSaveToVendorCollection == True:
-                    saveSearchCardToVendorCollection = input("Would you like to save this card to your Vendor Collection[Y/N]?")
-                    if saveSearchCardToVendorCollection in ("n","N","y","Y"):
-                        if saveSearchCardToVendorCollection in ("n","N")
-                            cardSearchSaveToVendorCollection = False
-                        if saveSearchCardToVendorCollection in ("y","Y")
-                            #code for appending to vendor collection json file here
-                            print("saved to vendor collection")
-                            print("search another card[Y/N]?")
+                            break
+                        if cardSearchAgain in ("y","Y"):
+                            searchingForCard = True
+                            cardSearchSaveToWishlist = False#go back to beginning of menu search loop
                             break
                 break
-            mainMenu = True
-            searchCardPrice_menu = False
-            break
-            #write the lists into the full set prices dictionary
-            print(currentCardSearchDictionary)
-        
-        #currentCardSearchDictionary.update(json.load(currentCardSearch))
-        #print("\nSearched for: ",searchQueryString,"Found: ",currentCardSearchDictionary)
+    
+        #ask to save to personal collection file
+        while cardSearchSaveToPersonalCollection == True:
+            saveSearchCardToPersonalCollection = input("Would you like to save this card to your Personal Collection[Y/N]?")
+            if saveSearchCardToPersonalCollection in ("n","N","y","Y"):
+                if saveSearchCardToPersonalCollection in ("n","N"):
+                    cardSearchSaveToVendorCollection = True
+                    cardSearchSaveToPersonalCollection = False
+                if saveSearchCardToPersonalCollection in ("y","Y"):
+                    cardName = addToPersonalCollection(cardName,currentCardSearchDictionary)
+                    print("\n",cardName,"was added to Personal Collection!")
+                    cardSearchAgain = input("\nSearch for another card[Y/N]?") 
+                    if cardSearchAgain in ("n","N","y","Y"):
+                        if cardSearchAgain in ("n","N"):
+                            cardSearchSaveToVendorCollection = True
+                            cardSearchSaveToPersonalCollection = False
+                            break
+                        if cardSearchAgain in ("y","Y"):
+                            searchingForCard = True
+                            cardSearchSaveToPersonalCollection = False#go back to beginning of menu search loop
+                            break
+                break
 
-        #print("Would you like to add this card to your Wishlist[Y/N]?")
-        #print("Would you like to add this card to your Personal Collection[Y/N]?")
-        mainMenu = True
-        searchCardPrice_menu = False
+        #ask to save to vendor collection json file
+        while cardSearchSaveToVendorCollection == True:
+            saveSearchCardToVendorCollection = input("Would you like to save this card to your Vendor Collection[Y/N]?")
+            if saveSearchCardToVendorCollection in ("n","N","y","Y"):
+                if saveSearchCardToVendorCollection in ("n","N"):
+                    print("\nReturning to Main Menu")
+                    mainMenu = True
+                    searchCardPrice_menu = False
+                if saveSearchCardToVendorCollection in ("y","Y"):
+                    cardName = addToVendorCollection(cardName,currentCardSearchDictionary)
+                    print("\n",cardName,"was added to Vendor Collection!")
+                    cardSearchAgain = input("\nSearch for another card[Y/N]?") 
+                    if cardSearchAgain in ("n","N","y","Y"):
+                        if cardSearchAgain in ("n","N"):
+                            print("\nReturning to Main Menu")
+                            mainMenu = True
+                            searchCardPrice_menu = False
+                            break
+                        if cardSearchAgain in ("y","Y"):
+                            searchingForCard = True
+                            cardSearchSaveToVendorCollection = False#go back to beginning of menu search loop
+                            break
+                break
+        continue
 
+    #Search for Sealed Card Menu
+    #while personalSealedCollection_menu == True:
+
+    #Search and View Full Set Prices Menu
     while setPrices_menu == True:
         menuSelect = 0
         if menuSelect == 0:
             print("\nSet Prices Menu")
-            print("\n1 - Get New Set Prices")
-            print("\n2 - Check Newest Saved Prices")
-            print("\n3 - Check Oldest Saved Prices")
-            print("\n4 - Check Price Changes")
-            print("\n5 - Main Menu")
-            print("\n6 - Quit Program")
+            print()
+            print("1 - Get New Set Prices")
+            print("2 - Check Newest Saved Prices")
+            print("3 - Check Oldest Saved Prices")
+            print("4 - Check Price Changes")
+            print("5 - Main Menu")
+            print("6 - Quit Program")
             menuChoices = [1,2,3,4,5,6]
-            menuSelect = int(input("\nPlease input your selection[1-4]:  "))
-            menuSelect_numValidCheck = True
+            menuString = input("\nPlease input your selection[1-9]:  ")
+            menuStringIsNum = menuString.isnumeric()
+            menuStringCheck = True
+            #check if the input is a number or a string of letters
+            while menuStringCheck == True:
+                if menuStringIsNum == False:
+                    #ask for menu selection again
+                    print("\nMust be a number, that is not a valid selection, please try again")
+                    print()
+                    print("\nSet Prices Menu")
+                    print("1 - Get New Set Prices")
+                    print("2 - Check Newest Saved Prices")
+                    print("3 - Check Oldest Saved Prices")
+                    print("4 - Check Price Changes")
+                    print("5 - Main Menu")
+                    print("6 - Quit Program")
+                    menuChoices = [1,2,3,4,5,6]
+                    menuString = input("\nPlease input your selection[1-9]:  ")
+                    menuStringIsNum = menuString.isnumeric()
+                    continue#goes back to check if it's a number at the top of while statement if it is then it turns to an int and goes to menu functions
+                else:
+                    menuSelect = int(menuString)
+                    menuSelect_numValidCheck = True
+                    menuStringCheck = False
             while menuSelect_numValidCheck == True:
                 if menuSelect in menuChoices:#if the inputed number is in the valid number choices list then run code that cooresponds with the number
                     if menuSelect == 0:
                         print("\nSet Prices Menu")
-                        print("\n1 - Get New Set Prices")
-                        print("\n2 - Check Newest Saved Prices")
-                        print("\n3 - Check Oldest Saved Prices")
-                        print("\n4 - Check Price Changes")
-                        print("\n5 - Main Menu")
-                        print("\n6 - Quit Program")
+                        print()
+                        print("1 - Get New Set Prices")
+                        print("2 - Check Newest Saved Prices")
+                        print("3 - Check Oldest Saved Prices")
+                        print("4 - Check Price Changes")
+                        print("5 - Main Menu")
+                        print("6 - Quit Program")
                         menuChoices = [1,2,3,4,5,6]
                         menuSelect = int(input("\nPlease input your selection[1-4]:  "))
                         break
@@ -652,14 +912,258 @@ while programActive == True: #checking if the application is currently running
                 else:
                     #variables print checks
                     print("\nThat is not a valid selection, please try again")
-                    print("\n1 - Get New Set Prices")
-                    print("\n2 - Check Newest Saved Prices")
-                    print("\n3 - Check Oldest Saved Prices")
-                    print("\n4 - Check Price Changes")
-                    print("\n5 - Main Menu")
-                    print("\n6 - Quit Program")
+                    print()
+                    print("1 - Get New Set Prices")
+                    print("2 - Check Newest Saved Prices")
+                    print("3 - Check Oldest Saved Prices")
+                    print("4 - Check Price Changes")
+                    print("5 - Main Menu")
+                    print("6 - Quit Program")
                     menuChoices = [1,2,3,4,5,6]
-                    menuSelect = int(input("\nPlease input your selection[1-4]:  "))
-else:#if the user has chose to quit the program
+                    menuString = input("\nPlease input your selection[1-9]:  ")
+                    menuStringIsNum = menuString.isnumeric()
+
+    #Buy List Menu
+    #while buyList_menu == True:
+
+    #Wishlist Menu
+    while wishlist_menu == True:
+        #print options and which menu you are in
+        print("\nWishlist Menu")
+        print()
+        print("1 - Show Wishlist")
+        print("2 - Add Card to Wishlist")
+        print("3 - Remove Card from Wishlist")
+        print("4 - Delete Wishlist")
+        print("5 - Total Price of Wishlist")
+        print("6 - Main Menu")
+        print("0 - Quit Program")
+
+        #set main menu choices
+        menuChoices = [0,1,2,3,4,5,6]
+
+        #ask what menu option the user wants to select
+        menuString = input("\nPlease input your selection[1-7]:  ")
+        menuStringIsNum = menuString.isnumeric()
+        menuStringCheck = True
+        #check if the input is a number or a string of letters
+        while menuStringCheck == True:
+            if menuStringIsNum == False:
+                #ask for menu selection again
+                print("\nMust be a number, that is not a valid selection, please try again")
+                print()
+                print("1 - Show Wishlist")
+                print("2 - Add Card to Wishlist")
+                print("3 - Remove Card from Wishlist")
+                print("4 - Delete Wishlist")
+                print("5 - Total Price of Wishlist")
+                print("6 - Main Menu")
+                print("0 - Quit Program")
+
+                #set main menu choices
+                menuChoices = [0,1,2,3,4,5,6]
+
+                #ask what menu option the user wants to select
+                menuString = input("\nPlease input your selection[1-7]:  ")
+                menuStringIsNum = menuString.isnumeric()
+                continue#goes back to check if it's a number at the top of while statement if it is then it turns to an int and goes to menu functions
+            else:
+                menuSelect = int(menuString)
+                menuSelect_numValidCheck = True
+                menuStringCheck = False
+        #checks if the number inputed is available in the menu selection choices
+        while menuSelect_numValidCheck == True:
+            if menuSelect in menuChoices:
+                #if it gets through the number validity check this group of code changes the booleans to the inputed number that cooresponds with the menu selection choice
+                #Search Single Card Price Menu
+                if menuSelect == 1:
+                    showWishlist = printWishList()
+                    break
+                if menuSelect == 2:
+                    searchingForCard = True
+                    while searchingForCard == True:
+                        searchQueryString = input("\nWhat card do you want to search for?  ")
+                        cardName,currentFullCardSearchDictionary = newCardSearch(searchQueryString)
+                        cardName,currentCardSearchDictionary = newCardSearchFilter(cardName,currentFullCardSearchDictionary)
+                        print("\n",cardName)
+                        print("\n",currentCardSearchDictionary)
+                        cardSearchSaveToWishlist = True
+                        searchingForCard = False
+                    while cardSearchSaveToWishlist == True:
+                        saveSearchCardToWishlist = input("\nWould you like to save this card to your Wishlist[Y/N]?")
+                        if saveSearchCardToWishlist in ("n","N","y","Y"):
+                            if saveSearchCardToWishlist in ("n","N"):
+                                cardSearchSaveToWishlist = False
+                            if saveSearchCardToWishlist in ("y","Y"):
+                                cardName = addToWishlist(cardName,currentCardSearchDictionary)
+                                print("\n",cardName,"was added to Wishlist!")
+                            cardSearchAgain = input("\nSearch for another card[Y/N]?") 
+                            if cardSearchAgain in ("n","N","y","Y"):
+                                if cardSearchAgain in ("n","N"):
+                                    menuSelect_numValidCheck = False
+                                    searchingForCard = False
+                                    cardSearchSaveToWishlist = False
+                                    break
+                                if cardSearchAgain in ("y","Y"):
+                                    searchingForCard = True
+                                    cardSearchSaveToWishlist = False#go back to beginning of menu search loop
+                                    break
+                            break
+                if menuSelect == 3:
+                    removeCardFromWishlist = removeFromWishlist()
+                    break
+                if menuSelect == 4:
+                    deleteWishList = deleteWishlist()
+                    break
+                if menuSelect == 5:
+                    wishlistPrice = calculateWishListTotalPrice()
+                    break
+                if menuSelect == 6:
+                    mainMenu = True
+                    wishlist_menu = False
+                    break
+                if menuSelect == 0:
+                    programActive = False
+                    wishlist_menu = False
+                    break
+            else:
+                #variables print checks
+                print("That is not a valid selection, please try again")
+                print()
+                print("1 - Show Wishlist")
+                print("2 - Add Card to Wishlist")
+                print("3 - Remove Card from Wishlist")
+                print("4 - Delete Wishlist")
+                print("5 - Total Price of Wishlist")
+                print("6 - Main Menu")
+                print("0 - Quit Program")
+                menuString = input("\nPlease input your selection[0-7]:  ")
+                menuSelect = menuString.isnumeric()
+    
+    #Personal Singles Collection Menu
+    while personalSinglesCollection_menu == True:
+        print()
+        print("Personal Singles Collection Menu")
+        print()
+        print("1 - Show Personal Singles Collection")
+        print("2 - Add Card to Personal Singles Collection")
+        print("3 - Remove Card from Personal Singles Collection")
+        print("4 - Delete Personal Singles Collection")
+        print("5 - Total Price of Personal Singles Collection")
+        print("6 - Main Menu")
+        print("0 - Quit Program")
+        #set main menu choices
+        menuChoices = [0,1,2,3,4,5,6]
+        #ask what menu option the user wants to select
+        menuString = input("\nPlease input your selection[0-6]:  ")
+        menuStringIsNum = menuString.isnumeric()
+        menuStringCheck = True
+        #check if the input is a number or a string of letters
+        while menuStringCheck == True:
+            if menuStringIsNum == False:
+                #ask for menu selection again
+                print("\nMust be a number, that is not a valid selection, please try again")
+                print()
+                print("1 - Show Wishlist")
+                print("2 - Add Card to Wishlist")
+                print("3 - Remove Card from Wishlist")
+                print("4 - Delete Wishlist")
+                print("5 - Total Price of Wishlist")
+                print("6 - Main Menu")
+                print("0 - Quit Program")
+
+                #set main menu choices
+                menuChoices = [0,1,2,3,4,5,6]
+                #ask what menu option the user wants to select
+                menuString = input("\nPlease input your selection[0-6]:  ")
+                menuStringIsNum = menuString.isnumeric()
+                continue#goes back to check if it's a number at the top of while statement if it is then it turns to an int and goes to menu functions
+            else:
+                menuSelect = int(menuString)
+                menuSelect_numValidCheck = True
+                menuStringCheck = False
+        #checks if the number inputed is available in the menu selection choices
+        while menuSelect_numValidCheck == True:
+            if menuSelect in menuChoices:
+                #if it gets through the number validity check this group of code changes the booleans to the inputed number that cooresponds with the menu selection choice
+                #Search Single Card Price Menu
+                if menuSelect == 1:
+                    showWishlist = printPersonalSinglesCollection()
+                    break
+                if menuSelect == 2:
+                    searchingForCard = True
+                    while searchingForCard == True:
+                        searchQueryString = input("\nWhat card do you want to search for?  ")
+                        cardName,currentFullCardSearchDictionary = newCardSearch(searchQueryString)
+                        cardName,currentCardSearchDictionary = newCardSearchFilter(cardName,currentFullCardSearchDictionary)
+                        print("\n",cardName)
+                        print("\n",currentCardSearchDictionary)
+                        cardSearchSaveToPSiC = True
+                        searchingForCard = False
+                    while cardSearchSaveToPSiC == True:
+                        saveSearchCardToPSiC = input("\nWould you like to save this card to your Personal Singles Collection[Y/N]?")
+                        if saveSearchCardToPSiC in ("n","N","y","Y"):
+                            if saveSearchCardToPSiC in ("n","N"):
+                                cardSearchSaveToPSiC = False
+                            if saveSearchCardToPSiC in ("y","Y"):
+                                cardName = addToPersonalSinglesCollection(cardName,currentCardSearchDictionary)
+                                print("\n",cardName,"was added to Personal Singles Collection!")
+                            cardSearchAgain = input("\nSearch for another card[Y/N]?") 
+                            if cardSearchAgain in ("n","N","y","Y"):
+                                if cardSearchAgain in ("n","N"):
+                                    menuSelect_numValidCheck = False
+                                    searchingForCard = False
+                                    cardSearchSaveToPSiC = False
+                                    break
+                                if cardSearchAgain in ("y","Y"):
+                                    searchingForCard = True
+                                    cardSearchSaveToPSiC = False#go back to beginning of menu search loop
+                                    break
+                            break
+                if menuSelect == 3:
+                    removeCardFromWishlist = removeFromPersonalSinglesCollection()
+                    break
+                if menuSelect == 4:
+                    deleteWishList = deletePersonalSinglesCollection()
+                    break
+                if menuSelect == 5:
+                    wishlistPrice = calculatePersonalSinglesCollectionTotalPrice()
+                    break
+                if menuSelect == 6:
+                    mainMenu = True
+                    personalSinglesCollection_menu = False
+                    break
+                if menuSelect == 0:
+                    programActive = False
+                    personalSinglesCollection_menu = False
+                    break
+            else:
+                #variables print checks
+                print("That is not a valid selection, please try again")
+                print()
+                print("1 - Show Personal Singles Collection")
+                print("2 - Add Card to Personal Singles Collection")
+                print("3 - Remove Card from Personal Singles Collection")
+                print("4 - Delete Personal Singles Collection")
+                print("5 - Total Price of Personal Singles Collection")
+                print("6 - Main Menu")
+                print("0 - Quit Program")
+                menuString = input("\nPlease input your selection[0-7]:  ")
+                menuSelect = menuString.isnumeric()
+
+    #Personal Sealed Collection Menu
+    #while personalSealedCollection_menu == True:
+
+    #Vendor Collection Menu
+    #while vendorCollection_menu == True:
+    
+    #Quick Percentage Calculator menu
+    while quickPercentageCalculate_menu == True:
+        percentageCalculator()
+        mainMenu = True
+        quickPercentageCalculate_menu = False
+
+else:#if the user has chosen to quit the program
     print("\nThank you for using Luis' Pokemon Management Program!!!")
+    print()
 
