@@ -1,3 +1,17 @@
 {
-    "wishlist_collection": {}
+    "wishlist_collection": {
+        "pika pi": {
+            "Pikachu": {
+                "name": "Pikachu",
+                "set_name": "Ascended Heroes",
+                "code": "ASC",
+                "card_number": 55,
+                "rarity": "Common",
+                "lowest_near_mint_price": 0.03,
+                "30_Day_Price_Average": 0.07,
+                "7_Day Price_Average": 0.09,
+                "PSA_10_Card_Price": {}
+            }
+        }
+    }
 }

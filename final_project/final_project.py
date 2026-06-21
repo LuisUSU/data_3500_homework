@@ -50,7 +50,6 @@ cardSearchSaveToWishlist = False
 cardSearchSaveToPersonalCollection = False
 cardSearchSaveToVendorCollection = False
 
-
 #Search Sealed Price Menu Variables
 searchSealedPrice_menu = False
 
@@ -104,7 +103,7 @@ def newCardSearch(searchQuery):
     with open("/workspaces/data_3500_homework/final_project/new_card_search.json", "w", encoding = "utf-8") as file:
         newCardSearchQuery = json.loads(newCardSearchQuery)
         json.dump(newCardSearchQuery, file, ensure_ascii = False, indent = 4)
-        print("\nSaved Card Search to newCardSearchQuery.json!")
+        print("\nSaved Card Search to new_card_searchjson!")
 
     # Extract the list of objects inside the "data" key
     with open("/workspaces/data_3500_homework/final_project/new_card_search.json", "r") as file:
@@ -135,7 +134,6 @@ def newCardSearchFilter(cardName,currentFullCardSearchDictionary):
         return cardNameKey,currentFilteredCardSearchDictionary
 
 #sealed search menu functions
-
 def newSealedSearch(searchQuery):
 
     url = "/products?search="
@@ -185,8 +183,6 @@ def newSealedSearchFilter(sealedName,currentFullSealedSearchDictionary):
             sealed7DayPriceAve = item.get("prices").get("cardmarket").get("7d_average","")
             currentFilteredSealedSearchDictionary = {"name": sealedNameKey, "set_name": sealedSetKey,"code": sealedSetAcronym,"lowest_price": sealedRawPrice,"30_Day_Price_Average": sealed30DayPriceAve,"7_Day Price_Average": sealed7DayPriceAve}
         return sealedNameKey,currentFilteredSealedSearchDictionary
-
-#Sealed Search Menu Functions
 
 #define personal sealed collection dictionary
 def defineTargetCollection(jsonFileName):
@@ -293,24 +289,25 @@ def removeItemFromSavedCollection(dictionaryFilePath,dictionaryFileName):
                             print(names)
                         print()
                         targetItem = input("Which Card would you like to remove?  ")
-                        for key, value in subdict.items():
-                            if key == targetItem:
-                                print()
-                                print("Are you sure you want to delete", targetItem,"[Y/N]?",end="")
-                                areYouSure = input()
-                                if areYouSure in ("n","N","y","Y"):
-                                    if areYouSure in ("n","N"):
-                                        return
-                                if areYouSure in ("y","Y"):
-                                    del updatedDictionary[dictionaryFileName][targetCollection][targetItem]
-                                    with open(dictionaryFilePath, "w", encoding = "utf-8") as file:
-                                        json.dump(updatedDictionary,file,ensure_ascii = False, indent = 4)
-                                        print()
-                                        print(targetItem,"from",targetCollection,dictionaryFileName,"was deleted!")
-                                        return
-                                else:
-                                    print("\nNot a valid Response")
-                                    continue
+                        for subdict in collectionNames.values():
+                            for key, value in subdict.items():
+                                if key == targetItem:
+                                    print()
+                                    print("Are you sure you want to delete", targetItem,"[Y/N]?",end="")
+                                    areYouSure = input()
+                                    if areYouSure in ("n","N","y","Y"):
+                                        if areYouSure in ("n","N"):
+                                            return
+                                    if areYouSure in ("y","Y"):
+                                        del updatedDictionary[dictionaryFileName][targetCollection][targetItem]
+                                        with open(dictionaryFilePath, "w", encoding = "utf-8") as file:
+                                            json.dump(updatedDictionary,file,ensure_ascii = False, indent = 4)
+                                            print()
+                                            print(targetItem,"from",targetCollection,dictionaryFileName,"was deleted!")
+                                            return
+                                    else:
+                                        print("\nNot a valid Response")
+                                        continue
 
 #delete collection from collection json file
 def removeCollection(dictionaryFilePath,dictionaryFileName):
@@ -351,6 +348,7 @@ def removeCollection(dictionaryFilePath,dictionaryFileName):
                         continue
     return targetCollection
 
+#print collection
 def printCollection(dictionaryFileName,dictionaryFilePath):
     with open(dictionaryFilePath, "r", encoding = "utf-8") as file:
         collectionFile = json.load(file)
@@ -419,245 +417,6 @@ def printCollection(dictionaryFileName,dictionaryFilePath):
                         print("\nNot a valid response")
                         continue
     return
-
-
-#Buy List Functions
-
-
-
-
-#wishlist functions
-
-#print wishlist as a list
-def printWishList():
-    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
-        wishlist = json.load(file)
-        wishlistDictionary = wishlist
-        wishlistNameList = wishlist.get("wishlist", [])
-        cardNameList = []
-        for item in wishlistNameList:
-            cardNameList.append(item)
-        print("\nCards in your Wishlist:")
-        print()
-        for names in cardNameList:
-            print(names)
-    return
-
-#search for a card and add it to wishlist json
-def addToWishlist(newCardName,newCardSearchDictionary):
-    #open wishilst file
-    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
-        wishlist = json.load(file)
-        wishlist["wishlist"][newCardName]= newCardSearchDictionary
-    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "w", encoding = "utf-8") as file:
-        json.dump(wishlist, file, ensure_ascii = False, indent = 4)   
-    return newCardName
-
-#remove a card from the wishlist
-def removeFromWishlist():
-    #looping through dictionary and retriving name of card, which is dictionary first name
-    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
-        wishlist = json.load(file)
-        wishlistDictionary = wishlist
-        wishlistNameList = wishlist.get("wishlist", [])
-        cardNameList = []
-        for item in wishlistNameList:
-            cardNameList.append(item)
-        print("\nCards in your Wishlist:")
-        print()
-        for names in cardNameList:
-            print(names)
-    cardNameRemove = input("\nWhich card would you like to remove?  ")
-    removeFromWishlist = True
-    while removeFromWishlist == True:
-            wishlistDictionaryNames = wishlistDictionary.get("wishlist",[])
-            for name in wishlistDictionaryNames:
-                print(name)
-                if name == cardNameRemove:
-                    del wishlistDictionary["wishlist"][name]
-                    print()
-                    print(cardNameRemove,"was removed from your wishlist!")
-                    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "w", encoding = "utf-8") as file:
-                        json.dump(wishlistDictionary,file,ensure_ascii = False, indent = 4)
-                        removeFromWishlist = False
-                    break
-    return
-
-#ask user if they are sure they want to delete wishlist contents
-def deleteWishlist():
-    areYouReallySure = True
-    while areYouReallySure == True:
-        areYouSure = input("Are you sure you want to delete your entire Wishlist[Y/N]?")
-        if areYouSure in ("n","N","y","Y"):
-            if areYouSure in ("n","N"):
-                areYouReallySure = False
-                break
-            if areYouSure in ("y","Y"):
-                with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
-                    wishlistDictionary = json.load(file)
-                    del wishlistDictionary["wishlist"]
-                with open("/workspaces/data_3500_homework/final_project/wishlist.json", "w", encoding = "utf-8") as file:
-                    wishlistDictionary["wishlist"] = {}
-                    json.dump(wishlistDictionary,file,ensure_ascii = False, indent = 4)
-                    print("\nAll cards in Wishlist have been removed!")
-                    areYouReallySure = False
-            else:
-                print("that is not a valid selection")
-                continue
-    return
-
-#calculate total price of cards within wishlist
-def calculateWishListTotalPrice():
-    with open("/workspaces/data_3500_homework/final_project/wishlist.json", "r", encoding = "utf-8") as file:
-        wishlist = json.load(file)
-        wishlistPriceList = []
-        for subdict in wishlist.values():
-            for key, value in subdict.items():
-                wishlistCardPrice = round(value.get("lowest_near_mint_price"),2)
-                wishlistPriceList.append(wishlistCardPrice)
-        totalWishlistPrice = sum(wishlistPriceList)
-        print("Wishlist Total Price:", totalWishlistPrice)
-    return
-
-#Personal Singles Collection Functions
-
-#print personal singles collection json as a list, ask which personal collection dictionaries to print
-#function to go through and read which available collections 
-def definePersonalSinglesCollection():
-    #loop through personal_collection file and retrieve the names of the collections, print out the names, add key to variable
-    #looping through dictionary and retriving name of card, which is dictionary first name
-    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "r", encoding = "utf-8") as file:
-        personalCollection = json.load(file)
-        personalCollection = personalCollection
-        personalCollectionList = personalCollection.get("wishlist", [])
-        collectionNameList = []
-        for item in personalCollectionList:
-            cardNameList.append(item)
-        print("\nCards in your Wishlist:")
-        print()
-        for names in cardNameList:
-            print(names)
-    
-def printPersonalSinglesCollection():
-    print("print available personal collection dictionaries that can be printed and ask the user which one to print ")
-    print("entire personal collection list","\nPersonal Collection Price")
-    #read and print full personal collection from json file
-
-def addNewPersonalSinglesCollection():
-    return
-
-
-#search for a card and add it to personal singles collection json
-def addToPersonalSinglesCollection(newCardName,newCardSearchDictionary):
-    #open personal collection file
-    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "r", encoding = "utf-8") as file:
-        personalCollection = json.load(file)
-        personalCollection["personal_collection"][newCardName]= newCardSearchDictionary
-    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "w", encoding = "utf-8") as file:
-        json.dump(personalCollection, file, ensure_ascii = False, indent = 4)   
-    return newCardName
-
-#remove card from personal singles collection
-def removeFromPersonalSinglesCollection():
-    print("removed from collection")
-    #remove card from json personal collection json file
-
-#delete personal singles collection
-def deletePersonalSinglesCollection():
-    print("search for a card for your personal collection")
-    print("ask user which personal collection dictionary entries to add the card to")#return the chosen personal collection ID for the next function
-    print("add:  ","charmander","to your collection? Y/N")#if no then search for a new card or go to main menu and saving the json file
-
-#calculate total price of all cards in personal singles collection json
-def calculatePersonalSinglesCollectionTotalPrice():
-    print("calculate total price of personal collection in realtime prices and print the total price added")
-    #calculate total price of all items in personal collection from json file
-
-#Personal Sealed Collection Functions
-
-#print personal sealed collection json as a list
-def printPersonalSealedCollection():
-    print("print available personal collection dictionaries that can be printed and ask the user which one to print ")
-    print("entire personal collection list","\nPersonal Collection Price")
-    #read and print full personal collection from json file
-
-#add new sealed search to a new dictionary in the dictionary json file
-def addSealedToNewSealedCollection(newSealedCollectionTitle,newSealedName,newSealedSearchDictionary):
-    #open wishilst file
-    with open("/workspaces/data_3500_homework/final_project/sealed_collection.json", "r", encoding = "utf-8") as file:
-        sealedCollection = json.load(file)
-        sealedCollection["sealed_colelction"][newSealedCollectionTitle][newSealedName]= newSealedSearchDictionary
-    with open("/workspaces/data_3500_homework/final_project/sealed_collection.json", "w", encoding = "utf-8") as file:
-        json.dump(sealedCollection, file, ensure_ascii = False, indent = 4)
-    return newSealedName
-
-    
-    return sealedDictionaryCollectionName
-#search for a card and add it to sealed collection json
-def addToSealedCollection(newSealedName,newSealedSearchDictionary):
-    #open personal collection file
-    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "r", encoding = "utf-8") as file:
-        sealedCollection = json.load(file)
-        sealedCollection["sealed_collection"][newSealedName]= newSealedSearchDictionary
-    with open("/workspaces/data_3500_homework/final_project/personal_collection.json", "w", encoding = "utf-8") as file:
-        json.dump(sealedCollection, file, ensure_ascii = False, indent = 4)   
-    return newSealedName
-
-#remove card from personal sealed collection
-def removeFromPersonalSealedCollection():
-    print("removed from collection")
-    #remove card from json personal collection json file
-
-#delete personal sealed collection
-def deletePersonalSealedCollection():
-    print("search for a card for your personal collection")
-    print("ask user which personal collection dictionary entries to add the card to")#return the chosen personal collection ID for the next function
-    print("add:  ","charmander","to your collection? Y/N")#if no then search for a new card or go to main menu and saving the json file
-
-#calculate total price of all cards in personal sealed collection json
-def calculatePersonalSealedCollectionTotalPrice():
-    print("calculate total price of personal collection in realtime prices and print the total price added")
-    #calculate total price of all items in personal collection from json file
-
-
-#Vendor Collection Functions
-
-#print vendor collection json as a list with prices attached
-def printVendorCollection():
-    print("print available vendor collection dictionaries that can be printed and ask the user which one to print ")
-    print("total vendor collection dictionary list")
-    #read and print total vendor collection list from json file
-
-#search for a card and add it to vendor collection
-def addToVendorCollection(newCardName,newCardSearchDictionary):
-    #open vendor collection file
-    with open("/workspaces/data_3500_homework/final_project/vendor_collection.json", "r", encoding = "utf-8") as file:
-        vendorCollection = json.load(file)
-        vendorCollection["vendor_collection"][newCardName]= newCardSearchDictionary
-    with open("/workspaces/data_3500_homework/final_project/vendor_collection.json", "w", encoding = "utf-8") as file:
-        json.dump(vendorCollection, file, ensure_ascii = False, indent = 4)   
-    return newCardName
-    #add card to json vendor collection json file
-
-#remove a card from vendor collection json file
-def removeFromVendorCollection():
-    print("Search and add or just view card price from Vendor Collection Menu")
-    print("ask user which vendor collection dictionarie entries to add the card to")#return the chosen vendor collection ID for the next function
-    print("add:  ","charmander","to your vendor collection? Y/N")#if no then search for a new card or go to main menu and saving the json file
-
-#delete vendor collection
-def deleteVendorCollection():
-    print("flying pikachu","removed from vendor collection")
-    #remove card from json vendor collection json file
-
-#calculate the total price of all items in vendor collection json
-def calculateVendorCollectionTotalProfit():
-    print("total vendor collection profit from first price to price today")
-    #calculcate total percentage and total profit price of vendor collection json file
-
-    print("delete specific saved vendor collection dictionary entry in vendor collection dicitonary ")
-    print("ask if the user is sure they want to delete the dictionary")
-    #delete vendor dictionary in vendor collection dictionary json file
 
 #Quick Percentage Calculator Function
 def percentageCalculator(): #need variables, card price and what percentage to calculate
@@ -916,7 +675,7 @@ while programActive == True: #checking if the application is currently running
                     while saveCardToNewWishlist == True:
                         if saveToNewWishlist in ("n","N","y","Y"):
                             if saveToNewWishlist in ("n","N"):
-                                saveCardToSavedWishlist = True
+                                saveCardToASavedWishlist = True
                                 saveCardToNewWishlist = False
                                 break
                             if saveToNewWishlist in ("y","Y"):
@@ -933,6 +692,7 @@ while programActive == True: #checking if the application is currently running
                                     if cardSearchAgain in ("n","N"):
                                         cardSearchSaveToPersonalCollection = True
                                         cardSearchSaveToWishlist = False
+                                        saveCardToASavedWishlist = False
                                         saveCardToNewWishlist = False
                                         break
                                     if cardSearchAgain in ("y","Y"):
@@ -995,6 +755,7 @@ while programActive == True: #checking if the application is currently running
                                 if cardSearchAgain in ("n","N","y","Y"):
                                     if cardSearchAgain in ("n","N"):
                                         cardSearchSaveToVendorCollection = True
+                                        saveCardToASavedPersonalCollection = False
                                         saveCardToNewPersonalCollection = False
                                         cardSearchSaveToPersonalCollection = False
                                         break
@@ -1057,7 +818,11 @@ while programActive == True: #checking if the application is currently running
                                 addNewItemToNewCollection = addItemToNewCollection(dictionaryFilePath,dictionaryFileName,newDictionaryName,cardName,newDictionary)
                                 print("\n",cardName,"was added to new",newDictionaryName,"!")
                                 saveCardToASavedVendorCollection = False
+                                cardSearchSaveToVendorCollection = False       
+                                mainMenu = True
+                                searchCardSingle_menu = False                         
                                 saveCardToNewVendorCollection = False
+
                                 break
                     #save card to saved vendor collection
                     while saveCardToASavedVendorCollection == True:
@@ -1641,11 +1406,11 @@ while programActive == True: #checking if the application is currently running
                     break
                 if menuSelect == 5:
                     mainMenu = True
-                    buyList_menu = False
+                    wishlist_menu = False
                     break
                 if menuSelect == 0:
                     programActive = False
-                    buyList_menu = False
+                    wishlist_menu = False
                     break
             else:
                 #variables print checks
@@ -1662,7 +1427,6 @@ while programActive == True: #checking if the application is currently running
                 #ask what menu option the user wants to select
                 menuString = input("\nPlease input your selection[0-5]:  ")
                 menuStringIsNum = menuString.isnumeric()
-    
     
     #Personal Singles Collection Menu
     while personalSinglesCollection_menu == True:
@@ -1776,20 +1540,20 @@ while programActive == True: #checking if the application is currently running
                 if menuSelect == 3:
                     jsonFile = "personal_collection.json"
                     dictionaryFileName,dictionaryFileNamePrinted,dictionaryFilePath = defineTargetCollection(jsonFile)
-                    editWishList = removeItemFromSavedCollection(dictionaryFilePath,dictionaryFileName)
+                    editPersonalCollection = removeItemFromSavedCollection(dictionaryFilePath,dictionaryFileName)
                     break
                 if menuSelect == 4:
                     jsonFile = "personal_collection.json"
                     dictionaryFileName,dictionaryFileNamePrinted,dictionaryFilePath = defineTargetCollection(jsonFile)
-                    deleteSavedWishList = removeCollection(dictionaryFilePath,dictionaryFileName)
+                    deleteSavedPersonalCollection = removeCollection(dictionaryFilePath,dictionaryFileName)
                     break
                 if menuSelect == 5:
                     mainMenu = True
-                    buyList_menu = False
+                    personalSinglesCollection_menu = False
                     break
                 if menuSelect == 0:
                     programActive = False
-                    buyList_menu = False
+                    personalSinglesCollection_menu = False
                     break
             else:
                 #variables print checks
@@ -1921,20 +1685,20 @@ while programActive == True: #checking if the application is currently running
                 if menuSelect == 3:
                     jsonFile = "personal_collection.json"
                     dictionaryFileName,dictionaryFileNamePrinted,dictionaryFilePath = defineTargetCollection(jsonFile)
-                    editWishList = removeItemFromSavedCollection(dictionaryFilePath,dictionaryFileName)
+                    editSealedCollection = removeItemFromSavedCollection(dictionaryFilePath,dictionaryFileName)
                     break
                 if menuSelect == 4:
                     jsonFile = "personal_collection.json"
                     dictionaryFileName,dictionaryFileNamePrinted,dictionaryFilePath = defineTargetCollection(jsonFile)
-                    deleteSavedWishList = removeCollection(dictionaryFilePath,dictionaryFileName)
+                    deleteSavedSealedCollection = removeCollection(dictionaryFilePath,dictionaryFileName)
                     break
                 if menuSelect == 5:
                     mainMenu = True
-                    buyList_menu = False
+                    personalSealedCollection_menu = False
                     break
                 if menuSelect == 0:
                     programActive = False
-                    buyList_menu = False
+                    personalSealedCollection_menu = False
                     break
             else:
                 #variables print checks
@@ -2064,20 +1828,20 @@ while programActive == True: #checking if the application is currently running
                 if menuSelect == 3:
                     jsonFile = "vendor_collection.json"
                     dictionaryFileName,dictionaryFileNamePrinted,dictionaryFilePath = defineTargetCollection(jsonFile)
-                    editWishList = removeItemFromSavedCollection(dictionaryFilePath,dictionaryFileName)
+                    editVendorCollection = removeItemFromSavedCollection(dictionaryFilePath,dictionaryFileName)
                     break
                 if menuSelect == 4:
                     jsonFile = "vendor_collection.json"
                     dictionaryFileName,dictionaryFileNamePrinted,dictionaryFilePath = defineTargetCollection(jsonFile)
-                    deleteSavedWishList = removeCollection(dictionaryFilePath,dictionaryFileName)
+                    deleteSavedVendorCollection = removeCollection(dictionaryFilePath,dictionaryFileName)
                     break
                 if menuSelect == 5:
                     mainMenu = True
-                    buyList_menu = False
+                    vendorCollection_menu = False
                     break
                 if menuSelect == 0:
                     programActive = False
-                    buyList_menu = False
+                    vendorCollection_menu = False
                     break
             else:
                 #variables print checks
