@@ -1,0 +1,1010 @@
+{
+    "data": [
+        {
+            "id": 20443,
+            "name": "BREAKpoint Booster",
+            "slug": "breakpoint-booster",
+            "cardmarket_id": 287243,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 41.58,
+                    "lowest_EU_only": 42.9,
+                    "lowest_DE": 64,
+                    "lowest_DE_EU_only": 64,
+                    "lowest_FR": 42.9,
+                    "lowest_FR_EU_only": 42.9,
+                    "lowest_ES": 18.88,
+                    "lowest_ES_EU_only": 18.88,
+                    "lowest_IT": 114.99,
+                    "lowest_IT_EU_only": 114.99,
+                    "30d_average": 40.38,
+                    "available_items": 100,
+                    "7d_average": 39.31
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20495/breakpoint-booster-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-booster",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20443"
+            }
+        },
+        {
+            "id": 20444,
+            "name": "BREAKpoint Booster (5 Cards)",
+            "slug": "breakpoint-booster-5-cards",
+            "cardmarket_id": 562422,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": null,
+                    "lowest_EU_only": null,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "lowest_FR": null,
+                    "available_items": null
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20595/breakpoint-booster-5-cards-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-booster-5-cards",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20444"
+            }
+        },
+        {
+            "id": 20445,
+            "name": "BREAKpoint Dollar Tree Booster (3 Cards)",
+            "slug": "breakpoint-dollar-tree-booster-3-cards",
+            "cardmarket_id": 564613,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 17.5,
+                    "lowest_EU_only": 17.5,
+                    "30d_average": 16.86,
+                    "available_items": 12,
+                    "7d_average": 16.86
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20411/breakpoint-dollar-tree-booster-3-cards-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-dollar-tree-booster-3-cards",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20445"
+            }
+        },
+        {
+            "id": 20282,
+            "name": "BREAKpoint Booster Box",
+            "slug": "breakpoint-booster-box",
+            "cardmarket_id": 287244,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 3000,
+                    "lowest_EU_only": 3000,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "lowest_FR": 2600,
+                    "lowest_FR_EU_only": 2600,
+                    "30d_average": 1651.57,
+                    "available_items": 5,
+                    "7d_average": 2605
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20292/breakpoint-booster-box-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-booster-box",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20282"
+            }
+        },
+        {
+            "id": 20283,
+            "name": "BREAKpoint Booster Box (18 Boosters)",
+            "slug": "breakpoint-booster-box-18-boosters",
+            "cardmarket_id": 562371,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": null,
+                    "lowest_EU_only": null,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "lowest_ES": 550,
+                    "lowest_ES_EU_only": 550,
+                    "30d_average": 250,
+                    "available_items": 1,
+                    "7d_average": 250
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20384/breakpoint-booster-box-18-boosters-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-booster-box-18-boosters",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20283"
+            }
+        },
+        {
+            "id": 20342,
+            "name": "BREAKpoint: Mega Gyarados Pin 3-Pack Blister",
+            "slug": "breakpoint-mega-gyarados-pin-3-pack-blister",
+            "cardmarket_id": 586352,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": null,
+                    "available_items": 1
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20337/breakpoint-mega-gyarados-pin-3-pack-blister-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-mega-gyarados-pin-3-pack-blister",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20342"
+            }
+        },
+        {
+            "id": 20343,
+            "name": "BREAKpoint: Mega Scizor Pin 3-Pack Blister",
+            "slug": "breakpoint-mega-scizor-pin-3-pack-blister",
+            "cardmarket_id": 586353,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": null,
+                    "lowest_EU_only": null,
+                    "lowest_FR": null,
+                    "lowest_FR_EU_only": null,
+                    "30d_average": 0.03,
+                    "available_items": null,
+                    "7d_average": 0.04
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20427/breakpoint-mega-scizor-pin-3-pack-blister-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-mega-scizor-pin-3-pack-blister",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20343"
+            }
+        },
+        {
+            "id": 20344,
+            "name": "BREAKpoint: Pikachu 1-Pack Blister",
+            "slug": "breakpoint-pikachu-1-pack-blister",
+            "cardmarket_id": 586354,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 399.99,
+                    "lowest_EU_only": 399.99,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "30d_average": 90.13,
+                    "available_items": 9,
+                    "7d_average": 213.39
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20572/breakpoint-pikachu-1-pack-blister-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-pikachu-1-pack-blister",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20344"
+            }
+        },
+        {
+            "id": 20345,
+            "name": "BREAKpoint: Hydreigon 1-Pack Blister",
+            "slug": "breakpoint-hydreigon-1-pack-blister",
+            "cardmarket_id": 586355,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": null,
+                    "lowest_EU_only": null,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "lowest_FR": null,
+                    "lowest_FR_EU_only": null,
+                    "lowest_ES": null,
+                    "lowest_ES_EU_only": null,
+                    "lowest_IT": null,
+                    "lowest_IT_EU_only": null,
+                    "30d_average": 46.18,
+                    "available_items": 1,
+                    "7d_average": 51.04
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20335/breakpoint-hydreigon-1-pack-blister-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-hydreigon-1-pack-blister",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20345"
+            }
+        },
+        {
+            "id": 20346,
+            "name": "BREAKpoint: Umbreon 3-Pack Blister",
+            "slug": "breakpoint-umbreon-3-pack-blister",
+            "cardmarket_id": 586356,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 999,
+                    "lowest_EU_only": 999,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "lowest_FR": null,
+                    "lowest_FR_EU_only": null,
+                    "lowest_IT": null,
+                    "lowest_IT_EU_only": null,
+                    "30d_average": 149.95,
+                    "available_items": 1,
+                    "7d_average": 149.95
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20340/breakpoint-umbreon-3-pack-blister-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-umbreon-3-pack-blister",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20346"
+            }
+        },
+        {
+            "id": 20347,
+            "name": "BREAKpoint: Pyroar 3-Pack Blister",
+            "slug": "breakpoint-pyroar-3-pack-blister",
+            "cardmarket_id": 586357,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": null,
+                    "lowest_EU_only": null,
+                    "lowest_FR": null,
+                    "lowest_FR_EU_only": null,
+                    "30d_average": 158.74,
+                    "available_items": null,
+                    "7d_average": 158.74
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20429/breakpoint-pyroar-3-pack-blister-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-pyroar-3-pack-blister",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20347"
+            }
+        },
+        {
+            "id": 22821,
+            "name": "BREAKpoint: Ash Greninja EX Box",
+            "slug": "breakpoint-ash-greninja-ex-box",
+            "cardmarket_id": 289035,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 800,
+                    "lowest_EU_only": 800,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "30d_average": 99.75,
+                    "available_items": 3,
+                    "7d_average": 208.43
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/22821/breakpoint-ash-greninja-ex-box.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-ash-greninja-ex-box",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/22821"
+            }
+        },
+        {
+            "id": 20095,
+            "name": "BREAKpoint Elite Trainer Box",
+            "slug": "breakpoint-elite-trainer-box",
+            "cardmarket_id": 287836,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 899,
+                    "lowest_EU_only": 899,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "30d_average": 476.46,
+                    "available_items": 6,
+                    "7d_average": 907
+                }
+            },
+            "episode": {
+                "id": 76,
+                "name": "BREAKpoint",
+                "slug": "breakpoint",
+                "released_at": "2016-02-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/10923/breakpoint-logo.png",
+                "code": "BKP",
+                "cards_total": 126,
+                "cards_printed_total": 122,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1029.08,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 734.38,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20687/breakpoint-elite-trainer-box-breakpoint-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/breakpoint/breakpoint-elite-trainer-box",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20095"
+            }
+        },
+        {
+            "id": 20593,
+            "name": "151 Booster",
+            "slug": "151-booster",
+            "cardmarket_id": 719694,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 24.99,
+                    "lowest_EU_only": 24.99,
+                    "lowest_DE": 19.5,
+                    "lowest_DE_EU_only": 20,
+                    "lowest_FR": 22.5,
+                    "lowest_FR_EU_only": 22.5,
+                    "lowest_ES": 24.9,
+                    "lowest_ES_EU_only": 24.9,
+                    "lowest_IT": 17.99,
+                    "lowest_IT_EU_only": 17.99,
+                    "30d_average": 24.58,
+                    "available_items": 1776,
+                    "7d_average": 23.11
+                }
+            },
+            "episode": {
+                "id": 16,
+                "name": "151",
+                "slug": "151",
+                "released_at": "2023-09-22",
+                "logo": "https://images.tcggo.com/tcggo/storage/2496/151-logo.png",
+                "code": "MEW",
+                "cards_total": 207,
+                "cards_printed_total": 165,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1850.46,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1899.84,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20756/151-booster-151-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/151/151-booster",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20593"
+            }
+        },
+        {
+            "id": 21833,
+            "name": "Celebrations Booster",
+            "slug": "celebrations-booster",
+            "cardmarket_id": 570888,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 24.95,
+                    "lowest_EU_only": 24.95,
+                    "lowest_DE": 21.99,
+                    "lowest_DE_EU_only": 21.99,
+                    "lowest_FR": 30,
+                    "lowest_FR_EU_only": 30,
+                    "lowest_ES": null,
+                    "lowest_ES_EU_only": null,
+                    "lowest_IT": 29,
+                    "lowest_IT_EU_only": 29,
+                    "30d_average": 26.99,
+                    "available_items": 633,
+                    "7d_average": 28.8
+                }
+            },
+            "episode": {
+                "id": 35,
+                "name": "Celebrations",
+                "slug": "celebrations",
+                "released_at": "2021-10-08",
+                "logo": "https://images.tcggo.com/tcggo/storage/5234/celebrations-logo.png",
+                "code": "CEL",
+                "cards_total": 25,
+                "cards_printed_total": 25,
+                "prices": {
+                    "cardmarket": {
+                        "total": 79.1,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 91.41,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/21857/celebrations-booster.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/celebrations/celebrations-booster",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/21833"
+            }
+        },
+        {
+            "id": 31942,
+            "name": "McDonald's Collection 25th Anniversary Booster",
+            "slug": "mcdonalds-collection-25th-anniversary-booster",
+            "cardmarket_id": 550931,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 3.85,
+                    "lowest_EU_only": 3.85,
+                    "lowest_DE": 2.8,
+                    "lowest_DE_EU_only": 2.8,
+                    "lowest_FR": 4,
+                    "lowest_FR_EU_only": 4,
+                    "lowest_ES": 15,
+                    "lowest_ES_EU_only": 15,
+                    "lowest_IT": 3.7,
+                    "lowest_IT_EU_only": 3.7,
+                    "30d_average": 8.28,
+                    "available_items": 2482,
+                    "7d_average": 3.66
+                }
+            },
+            "episode": {
+                "id": 35,
+                "name": "Celebrations",
+                "slug": "celebrations",
+                "released_at": "2021-10-08",
+                "logo": "https://images.tcggo.com/tcggo/storage/5234/celebrations-logo.png",
+                "code": "CEL",
+                "cards_total": 25,
+                "cards_printed_total": 25,
+                "prices": {
+                    "cardmarket": {
+                        "total": 79.1,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 91.41,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/32332/mcdonalds-collection-25th-anniversary-booster.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/celebrations/mcdonalds-collection-25th-anniversary-booster",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/31942"
+            }
+        },
+        {
+            "id": 20454,
+            "name": "Evolutions Booster",
+            "slug": "evolutions-booster",
+            "cardmarket_id": 293335,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 49.99,
+                    "lowest_EU_only": 49.99,
+                    "lowest_DE": 67.99,
+                    "lowest_DE_EU_only": 67.99,
+                    "lowest_FR": 74,
+                    "lowest_FR_EU_only": 74,
+                    "lowest_ES": 54.9,
+                    "lowest_ES_EU_only": 54.9,
+                    "lowest_IT": 49.9,
+                    "lowest_IT_EU_only": 49.9,
+                    "30d_average": 65.97,
+                    "available_items": 334,
+                    "7d_average": 56.73
+                }
+            },
+            "episode": {
+                "id": 71,
+                "name": "Evolutions",
+                "slug": "evolutions",
+                "released_at": "2016-11-02",
+                "logo": "https://images.tcggo.com/tcggo/storage/10425/evolutions-logo.png",
+                "code": "EVO",
+                "cards_total": 113,
+                "cards_printed_total": 108,
+                "prices": {
+                    "cardmarket": {
+                        "total": 641.95,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 591.91,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20416/evolutions-booster-evolutions-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/evolutions/evolutions-booster",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20454"
+            }
+        },
+        {
+            "id": 20455,
+            "name": "Evolutions Booster (5 Cards)",
+            "slug": "evolutions-booster-5-cards",
+            "cardmarket_id": 562419,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": null,
+                    "lowest_EU_only": null,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "available_items": null
+                }
+            },
+            "episode": {
+                "id": 71,
+                "name": "Evolutions",
+                "slug": "evolutions",
+                "released_at": "2016-11-02",
+                "logo": "https://images.tcggo.com/tcggo/storage/10425/evolutions-logo.png",
+                "code": "EVO",
+                "cards_total": 113,
+                "cards_printed_total": 108,
+                "prices": {
+                    "cardmarket": {
+                        "total": 641.95,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 591.91,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20526/evolutions-booster-5-cards-evolutions-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/evolutions/evolutions-booster-5-cards",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20455"
+            }
+        },
+        {
+            "id": 20456,
+            "name": "Evolutions Dollar Tree Booster (3 Cards)",
+            "slug": "evolutions-dollar-tree-booster-3-cards",
+            "cardmarket_id": 564616,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 24.99,
+                    "lowest_EU_only": 24.99,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "30d_average": 15.36,
+                    "available_items": 15,
+                    "7d_average": 16.12
+                }
+            },
+            "episode": {
+                "id": 71,
+                "name": "Evolutions",
+                "slug": "evolutions",
+                "released_at": "2016-11-02",
+                "logo": "https://images.tcggo.com/tcggo/storage/10425/evolutions-logo.png",
+                "code": "EVO",
+                "cards_total": 113,
+                "cards_printed_total": 108,
+                "prices": {
+                    "cardmarket": {
+                        "total": 641.95,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 591.91,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20599/evolutions-dollar-tree-booster-3-cards-evolutions-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/evolutions/evolutions-dollar-tree-booster-3-cards",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20456"
+            }
+        },
+        {
+            "id": 20446,
+            "name": "Generations Booster",
+            "slug": "generations-booster",
+            "cardmarket_id": 293301,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest": 220,
+                    "lowest_EU_only": 220,
+                    "lowest_DE": null,
+                    "lowest_DE_EU_only": null,
+                    "lowest_FR": 115,
+                    "lowest_FR_EU_only": 115,
+                    "lowest_ES": 1500,
+                    "lowest_ES_EU_only": 1500,
+                    "lowest_IT": 150,
+                    "lowest_IT_EU_only": 150,
+                    "30d_average": 196.8,
+                    "available_items": 71,
+                    "7d_average": 231.93
+                }
+            },
+            "episode": {
+                "id": 75,
+                "name": "Generations",
+                "slug": "generations",
+                "released_at": "2016-02-22",
+                "logo": "https://images.tcggo.com/tcggo/storage/10803/generations-logo.png",
+                "code": "GEN",
+                "cards_total": 117,
+                "cards_printed_total": 83,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1187.79,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1108.1,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                }
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/20410/generations-booster-generations-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/generations/generations-booster",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/20446"
+            }
+        }
+    ],
+    "paging": {
+        "current": 1,
+        "total": 21,
+        "per_page": 20
+    },
+    "results": 417
+}

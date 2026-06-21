@@ -1,6 +1,6 @@
 {
-    "personal_collection": {
-        "y": {
+    "buy_list": {
+        "water": {
             "Lapras ex": {
                 "name": "Lapras ex",
                 "set_name": "Perfect Order",
@@ -12,24 +12,24 @@
                 "7_Day Price_Average": 0.53,
                 "PSA_10_Card_Price": {}
             },
-            "Ditto": {
-                "name": "Ditto",
-                "set_name": "Paldean Fates",
-                "code": "PAF",
-                "card_number": 201,
-                "rarity": "Shiny Rare",
-                "lowest_near_mint_price": 29,
-                "30_Day_Price_Average": 21.75,
-                "7_Day Price_Average": 19.59,
-                "PSA_10_Card_Price": 438.33
+            "Goldeen": {
+                "name": "Goldeen",
+                "set_name": "Prismatic Evolutions",
+                "code": "PRE",
+                "card_number": 20,
+                "rarity": "Common",
+                "lowest_near_mint_price": 0.02,
+                "30_Day_Price_Average": 0.04,
+                "7_Day Price_Average": 0.03,
+                "PSA_10_Card_Price": {}
             }
         },
-        "FIRE": {
-            "Magmar": {
-                "name": "Magmar",
-                "set_name": "Journey Together",
-                "code": "JTG",
-                "card_number": 20,
+        "Electric": {
+            "Chinchou": {
+                "name": "Chinchou",
+                "set_name": "Stellar Crown",
+                "code": "SCR",
+                "card_number": 48,
                 "rarity": "Common",
                 "lowest_near_mint_price": 0.02,
                 "30_Day_Price_Average": 0.03,

@@ -1,26 +1,28 @@
 {
     "vendor_collection": {
-        "Leafeon": {
-            "name": "Leafeon",
-            "set_name": "Prismatic Evolutions",
-            "code": "PRE",
-            "card_number": 5,
-            "rarity": "rare",
-            "current_near_mint_price": 0.02,
-            "30_Day_Price_Average": 0.24,
-            "7_Day Price_Average": 0.16,
-            "PSA_10_Card_Price": {}
-        },
-        "Team Rocket's Mewtwo ex": {
-            "name": "Team Rocket's Mewtwo ex",
-            "set_name": "Ascended Heroes",
-            "code": "ASC",
-            "card_number": 79,
-            "rarity": "Double Rare",
-            "current_near_mint_price": 0.99,
-            "30_Day_Price_Average": 1.26,
-            "7_Day Price_Average": 1.3,
-            "PSA_10_Card_Price": {}
+        "Pika Pi": {
+            "Ethan's Pichu": {
+                "name": "Ethan's Pichu",
+                "set_name": "Destined Rivals",
+                "code": "DRI",
+                "card_number": 71,
+                "rarity": "Common",
+                "lowest_near_mint_price": 0.02,
+                "30_Day_Price_Average": 0.04,
+                "7_Day Price_Average": 0.04,
+                "PSA_10_Card_Price": {}
+            },
+            "Raichu": {
+                "name": "Raichu",
+                "set_name": "Ascended Heroes",
+                "code": "ASC",
+                "card_number": 56,
+                "rarity": "Uncommon",
+                "lowest_near_mint_price": 0.02,
+                "30_Day_Price_Average": 0.04,
+                "7_Day Price_Average": 0.04,
+                "PSA_10_Card_Price": {}
+            }
         }
     }
 }

@@ -1,0 +1,1555 @@
+{
+    "data": [
+        {
+            "id": 21896,
+            "name": "Magmar",
+            "name_numbered": "Magmar 20",
+            "slug": "magmar",
+            "card_code_number": "JTG 20",
+            "type": "singles",
+            "card_number": 20,
+            "hp": 80,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "sv9-20",
+            "cardmarket_id": 817172,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.02,
+                    "lowest_near_mint_EU_only": 0.02,
+                    "lowest_near_mint_DE": 0.02,
+                    "lowest_near_mint_DE_EU_only": 0.02,
+                    "lowest_near_mint_FR": 0.02,
+                    "lowest_near_mint_FR_EU_only": 0.02,
+                    "lowest_near_mint_ES": 0.02,
+                    "lowest_near_mint_ES_EU_only": 0.02,
+                    "lowest_near_mint_IT": 0.02,
+                    "lowest_near_mint_IT_EU_only": 0.02,
+                    "30d_average": 0.03,
+                    "7d_average": 0.04,
+                    "available_items": 12600,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.03,
+                    "mid_price": 0.09
+                }
+            },
+            "episode": {
+                "id": 220,
+                "name": "Journey Together",
+                "slug": "journey-together",
+                "released_at": "2025-03-28",
+                "logo": "https://images.tcggo.com/tcggo/storage/21901/journey-together-logo.png",
+                "code": "JTG",
+                "cards_total": 190,
+                "cards_printed_total": 159,
+                "prices": {
+                    "cardmarket": {
+                        "total": 452.8,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 424.05,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 1,
+                    "name": "Scarlet & Violet",
+                    "slug": "scarlet-violet"
+                }
+            },
+            "artist": {
+                "id": 362,
+                "name": "Naoyo Kimura",
+                "slug": "naoyo-kimura"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/21922/magmar-jtg-20-journey-together.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/journey-together/magmar-20-2",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/21896"
+            }
+        },
+        {
+            "id": 1975,
+            "name": "Magmar",
+            "name_numbered": "Magmar 9",
+            "slug": "magmar",
+            "card_code_number": "PAF 9",
+            "type": "singles",
+            "card_number": 9,
+            "hp": 80,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "sv4pt5-9",
+            "cardmarket_id": 751535,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.02,
+                    "lowest_near_mint_EU_only": 0.02,
+                    "lowest_near_mint_DE": 0.02,
+                    "lowest_near_mint_DE_EU_only": 0.02,
+                    "lowest_near_mint_FR": 0.02,
+                    "lowest_near_mint_FR_EU_only": 0.02,
+                    "lowest_near_mint_ES": 0.02,
+                    "lowest_near_mint_ES_EU_only": 0.02,
+                    "lowest_near_mint_IT": 0.02,
+                    "lowest_near_mint_IT_EU_only": 0.02,
+                    "30d_average": 0.03,
+                    "7d_average": 0.02,
+                    "available_items": null,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.04,
+                    "mid_price": 0.09
+                }
+            },
+            "episode": {
+                "id": 14,
+                "name": "Paldean Fates",
+                "slug": "paldean-fates",
+                "released_at": "2024-01-26",
+                "logo": "https://images.tcggo.com/tcggo/storage/1981/paldean-fates-logo.png",
+                "code": "PAF",
+                "cards_total": 245,
+                "cards_printed_total": 91,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1687.41,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1682.39,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 1,
+                    "name": "Scarlet & Violet",
+                    "slug": "scarlet-violet"
+                }
+            },
+            "artist": {
+                "id": 449,
+                "name": "miki kudo",
+                "slug": "miki-kudo"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/1985/magmar-paf-9-paldean-fates-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/paldean-fates/magmar-9",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/1975"
+            }
+        },
+        {
+            "id": 2589,
+            "name": "Magmar",
+            "name_numbered": "Magmar 126",
+            "slug": "magmar",
+            "card_code_number": "MEW 126",
+            "type": "singles",
+            "card_number": 126,
+            "hp": 90,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "sv3pt5-126",
+            "cardmarket_id": 733721,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.02,
+                    "lowest_near_mint_EU_only": 0.02,
+                    "lowest_near_mint_DE": 0.02,
+                    "lowest_near_mint_DE_EU_only": 0.02,
+                    "lowest_near_mint_FR": 0.02,
+                    "lowest_near_mint_FR_EU_only": 0.02,
+                    "lowest_near_mint_ES": 0.02,
+                    "lowest_near_mint_ES_EU_only": 0.02,
+                    "lowest_near_mint_IT": 0.02,
+                    "lowest_near_mint_IT_EU_only": 0.02,
+                    "30d_average": 0.05,
+                    "7d_average": 0.06,
+                    "available_items": null,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.15,
+                    "mid_price": 0.14
+                }
+            },
+            "episode": {
+                "id": 16,
+                "name": "151",
+                "slug": "151",
+                "released_at": "2023-09-22",
+                "logo": "https://images.tcggo.com/tcggo/storage/2496/151-logo.png",
+                "code": "MEW",
+                "cards_total": 207,
+                "cards_printed_total": 165,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1850.46,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1899.84,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 1,
+                    "name": "Scarlet & Violet",
+                    "slug": "scarlet-violet"
+                }
+            },
+            "artist": {
+                "id": 364,
+                "name": "Toshinao Aoki",
+                "slug": "toshinao-aoki"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/2603/magmar-mew-126-151-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/151/magmar-126",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/2589"
+            }
+        },
+        {
+            "id": 4713,
+            "name": "Magmar",
+            "name_numbered": "Magmar 19",
+            "slug": "magmar",
+            "card_code_number": "BRS 19",
+            "type": "singles",
+            "card_number": 19,
+            "hp": 90,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "swsh9-19",
+            "cardmarket_id": 608469,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.02,
+                    "lowest_near_mint_EU_only": 0.02,
+                    "lowest_near_mint_DE": 0.02,
+                    "lowest_near_mint_DE_EU_only": 0.02,
+                    "lowest_near_mint_FR": 0.02,
+                    "lowest_near_mint_FR_EU_only": 0.02,
+                    "lowest_near_mint_ES": 0.02,
+                    "lowest_near_mint_ES_EU_only": 0.02,
+                    "lowest_near_mint_IT": 0.02,
+                    "lowest_near_mint_IT_EU_only": 0.02,
+                    "30d_average": 0.04,
+                    "7d_average": 0.04,
+                    "available_items": 13587,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.12,
+                    "mid_price": 0.14
+                }
+            },
+            "episode": {
+                "id": 32,
+                "name": "Brilliant Stars",
+                "slug": "brilliant-stars",
+                "released_at": "2022-02-25",
+                "logo": "https://images.tcggo.com/tcggo/storage/4728/brilliant-stars-logo.png",
+                "code": "BRS",
+                "cards_total": 186,
+                "cards_printed_total": 172,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1000.22,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1042.03,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 2,
+                    "name": "Sword & Shield",
+                    "slug": "sword-shield"
+                }
+            },
+            "artist": {
+                "id": 421,
+                "name": "Shinji Kanda",
+                "slug": "shinji-kanda"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/4748/magmar-brs-19-brilliant-stars-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/brilliant-stars/magmar-19",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/4713"
+            }
+        },
+        {
+            "id": 6635,
+            "name": "Magmar",
+            "name_numbered": "Magmar 29",
+            "slug": "magmar",
+            "card_code_number": "RCL 29",
+            "type": "singles",
+            "card_number": 29,
+            "hp": 90,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "swsh2-29",
+            "cardmarket_id": 457603,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.03,
+                    "lowest_near_mint_EU_only": 0.02,
+                    "lowest_near_mint_DE": 0.02,
+                    "lowest_near_mint_DE_EU_only": 0.02,
+                    "lowest_near_mint_FR": 0.02,
+                    "lowest_near_mint_FR_EU_only": 0.02,
+                    "lowest_near_mint_ES": 0.02,
+                    "lowest_near_mint_ES_EU_only": 0.02,
+                    "lowest_near_mint_IT": 0.02,
+                    "lowest_near_mint_IT_EU_only": 0.02,
+                    "30d_average": 0.04,
+                    "7d_average": 0.05,
+                    "available_items": 2327,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.13,
+                    "mid_price": 0.15
+                }
+            },
+            "episode": {
+                "id": 47,
+                "name": "Rebel Clash",
+                "slug": "rebel-clash",
+                "released_at": "2020-05-01",
+                "logo": "https://images.tcggo.com/tcggo/storage/6669/rebel-clash-logo.png",
+                "code": "RCL",
+                "cards_total": 209,
+                "cards_printed_total": 192,
+                "prices": {
+                    "cardmarket": {
+                        "total": 350.89,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 361.46,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 2,
+                    "name": "Sword & Shield",
+                    "slug": "sword-shield"
+                }
+            },
+            "artist": {
+                "id": 437,
+                "name": "Shigenori Negishi",
+                "slug": "shigenori-negishi"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/6699/magmar-rcl-29-rebel-clash-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/rebel-clash/magmar-29",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/6635"
+            }
+        },
+        {
+            "id": 7610,
+            "name": "Magmar",
+            "name_numbered": "Magmar 3",
+            "slug": "magmar",
+            "card_code_number": "3",
+            "type": "singles",
+            "card_number": 3,
+            "hp": 80,
+            "rarity": null,
+            "supertype": "Pokémon",
+            "tcgid": "mcd19-3",
+            "cardmarket_id": 412859,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 2.08,
+                    "lowest_near_mint_EU_only": 2.9,
+                    "lowest_near_mint_DE": 1.66,
+                    "lowest_near_mint_DE_EU_only": 3.9,
+                    "lowest_near_mint_FR": null,
+                    "lowest_near_mint_FR_EU_only": null,
+                    "lowest_near_mint_ES": 4.9,
+                    "lowest_near_mint_ES_EU_only": 4.9,
+                    "lowest_near_mint_IT": 1.25,
+                    "lowest_near_mint_IT_EU_only": 1.25,
+                    "30d_average": 2.28,
+                    "7d_average": 3.82,
+                    "available_items": 126,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 9.28,
+                    "mid_price": 5.07
+                }
+            },
+            "episode": {
+                "id": 51,
+                "name": "McDonald's Collection 2019",
+                "slug": "mcdonalds-collection-2019",
+                "released_at": "2019-10-15",
+                "logo": "https://images.tcggo.com/tcggo/storage/7676/mcdonalds-collection-2019-logo.png",
+                "code": "",
+                "cards_total": 12,
+                "cards_printed_total": 12,
+                "prices": {
+                    "cardmarket": {
+                        "total": 48.3,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 114.27,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 3,
+                    "name": "Other",
+                    "slug": "other"
+                }
+            },
+            "artist": {
+                "id": 575,
+                "name": "Yumi",
+                "slug": "yumi"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/7680/magmar-3-mcdonalds-collection-2019-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/mcdonalds-collection-2019/magmar-3",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/7610"
+            }
+        },
+        {
+            "id": 7631,
+            "name": "Magmar",
+            "name_numbered": "Magmar 10",
+            "slug": "magmar",
+            "card_code_number": "HIF 10",
+            "type": "singles",
+            "card_number": 10,
+            "hp": 90,
+            "rarity": "Uncommon",
+            "supertype": "Pokémon",
+            "tcgid": "sm115-10",
+            "cardmarket_id": null,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": null,
+                    "lowest_near_mint_FR": 0.02,
+                    "lowest_near_mint_FR_EU_only": 0.02,
+                    "30d_average": 0.07,
+                    "7d_average": 0.09,
+                    "available_items": null,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.1,
+                    "mid_price": 0.13
+                }
+            },
+            "episode": {
+                "id": 52,
+                "name": "Hidden Fates",
+                "slug": "hidden-fates",
+                "released_at": "2019-08-23",
+                "logo": "https://images.tcggo.com/tcggo/storage/7690/hidden-fates-logo.png",
+                "code": "HIF",
+                "cards_total": 69,
+                "cards_printed_total": 68,
+                "prices": {
+                    "cardmarket": {
+                        "total": 2081.72,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 2401.43,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 4,
+                    "name": "Sun & Moon",
+                    "slug": "sun-moon"
+                }
+            },
+            "artist": {
+                "id": 519,
+                "name": "Satoshi Shirai",
+                "slug": "satoshi-shirai"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/7703/magmar-hif-10-hidden-fates-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/hidden-fates/magmar-10",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/7631"
+            }
+        },
+        {
+            "id": 7803,
+            "name": "Magmar",
+            "name_numbered": "Magmar 21",
+            "slug": "magmar",
+            "card_code_number": "UNM 21",
+            "type": "singles",
+            "card_number": 21,
+            "hp": 80,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "sm11-21",
+            "cardmarket_id": 387937,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.02,
+                    "lowest_near_mint_EU_only": 0.02,
+                    "lowest_near_mint_DE": 0.03,
+                    "lowest_near_mint_DE_EU_only": 0.03,
+                    "lowest_near_mint_FR": 0.05,
+                    "lowest_near_mint_FR_EU_only": 0.05,
+                    "lowest_near_mint_ES": 0.02,
+                    "lowest_near_mint_ES_EU_only": 0.02,
+                    "lowest_near_mint_IT": 0.02,
+                    "lowest_near_mint_IT_EU_only": 0.02,
+                    "30d_average": 0.12,
+                    "7d_average": 0.13,
+                    "available_items": 1093,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.22,
+                    "mid_price": 0.21
+                }
+            },
+            "episode": {
+                "id": 54,
+                "name": "Unified Minds",
+                "slug": "unified-minds",
+                "released_at": "2019-08-02",
+                "logo": "https://images.tcggo.com/tcggo/storage/7857/unified-minds-logo.png",
+                "code": "UNM",
+                "cards_total": 260,
+                "cards_printed_total": 236,
+                "prices": {
+                    "cardmarket": {
+                        "total": 3515.43,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 3227.92,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 4,
+                    "name": "Sun & Moon",
+                    "slug": "sun-moon"
+                }
+            },
+            "artist": {
+                "id": 543,
+                "name": "Hiroki Asanuma",
+                "slug": "hiroki-asanuma"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/7878/magmar-unm-21-unified-minds-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/unified-minds/magmar-21",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/7803"
+            }
+        },
+        {
+            "id": 9184,
+            "name": "Magmar",
+            "name_numbered": "Magmar 18",
+            "slug": "magmar",
+            "card_code_number": "UPR 18",
+            "type": "singles",
+            "card_number": 18,
+            "hp": 80,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "sm5-18",
+            "cardmarket_id": 315949,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.02,
+                    "lowest_near_mint_EU_only": 0.02,
+                    "lowest_near_mint_DE": 0.02,
+                    "lowest_near_mint_DE_EU_only": 0.02,
+                    "lowest_near_mint_FR": 0.02,
+                    "lowest_near_mint_FR_EU_only": 0.02,
+                    "lowest_near_mint_ES": 0.02,
+                    "lowest_near_mint_ES_EU_only": 0.02,
+                    "lowest_near_mint_IT": 0.05,
+                    "lowest_near_mint_IT_EU_only": 0.05,
+                    "30d_average": 0.08,
+                    "7d_average": 0.04,
+                    "available_items": null,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.1,
+                    "mid_price": 0.16
+                }
+            },
+            "episode": {
+                "id": 63,
+                "name": "Ultra Prism",
+                "slug": "ultra-prism",
+                "released_at": "2018-02-02",
+                "logo": "https://images.tcggo.com/tcggo/storage/9243/ultra-prism-logo.png",
+                "code": "UPR",
+                "cards_total": 178,
+                "cards_printed_total": 156,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1807.6,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1631.92,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 4,
+                    "name": "Sun & Moon",
+                    "slug": "sun-moon"
+                }
+            },
+            "artist": {
+                "id": 575,
+                "name": "Yumi",
+                "slug": "yumi"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/9261/magmar-upr-18-ultra-prism-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/ultra-prism/magmar-18",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/9184"
+            }
+        },
+        {
+            "id": 10364,
+            "name": "Magmar",
+            "name_numbered": "Magmar 20",
+            "slug": "magmar",
+            "card_code_number": "EVO 20",
+            "type": "singles",
+            "card_number": 20,
+            "hp": 80,
+            "rarity": "Uncommon",
+            "supertype": "Pokémon",
+            "tcgid": "xy12-20",
+            "cardmarket_id": 293376,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.03,
+                    "lowest_near_mint_EU_only": 0.03,
+                    "lowest_near_mint_DE": 0.07,
+                    "lowest_near_mint_DE_EU_only": 0.07,
+                    "lowest_near_mint_FR": 0.1,
+                    "lowest_near_mint_FR_EU_only": 0.1,
+                    "lowest_near_mint_ES": 0.05,
+                    "lowest_near_mint_ES_EU_only": 0.05,
+                    "lowest_near_mint_IT": 0.02,
+                    "lowest_near_mint_IT_EU_only": 0.02,
+                    "30d_average": 0.16,
+                    "7d_average": 0.16,
+                    "available_items": null,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.13,
+                    "mid_price": 0.16
+                }
+            },
+            "episode": {
+                "id": 71,
+                "name": "Evolutions",
+                "slug": "evolutions",
+                "released_at": "2016-11-02",
+                "logo": "https://images.tcggo.com/tcggo/storage/10425/evolutions-logo.png",
+                "code": "EVO",
+                "cards_total": 113,
+                "cards_printed_total": 108,
+                "prices": {
+                    "cardmarket": {
+                        "total": 642.22,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 591.91,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 5,
+                    "name": "XY",
+                    "slug": "xy"
+                }
+            },
+            "artist": {
+                "id": 556,
+                "name": "Ken Sugimori",
+                "slug": "ken-sugimori"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/10446/magmar-evo-20-evolutions-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/evolutions/magmar-20",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/10364"
+            }
+        },
+        {
+            "id": 10730,
+            "name": "Magmar",
+            "name_numbered": "Magmar 16",
+            "slug": "magmar",
+            "card_code_number": "GEN 16",
+            "type": "singles",
+            "card_number": 16,
+            "hp": 80,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "g1-16",
+            "cardmarket_id": 288456,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.04,
+                    "lowest_near_mint_EU_only": 0.04,
+                    "lowest_near_mint_DE": 0.08,
+                    "lowest_near_mint_DE_EU_only": 0.08,
+                    "lowest_near_mint_FR": 0.05,
+                    "lowest_near_mint_FR_EU_only": 0.05,
+                    "lowest_near_mint_ES": 0.02,
+                    "lowest_near_mint_ES_EU_only": 0.02,
+                    "lowest_near_mint_IT": 0.1,
+                    "lowest_near_mint_IT_EU_only": 0.1,
+                    "30d_average": 0.1,
+                    "7d_average": 0.1,
+                    "available_items": null,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.16,
+                    "mid_price": 0.2
+                }
+            },
+            "episode": {
+                "id": 75,
+                "name": "Generations",
+                "slug": "generations",
+                "released_at": "2016-02-22",
+                "logo": "https://images.tcggo.com/tcggo/storage/10803/generations-logo.png",
+                "code": "GEN",
+                "cards_total": 117,
+                "cards_printed_total": 83,
+                "prices": {
+                    "cardmarket": {
+                        "total": 1188.24,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1108.1,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 5,
+                    "name": "XY",
+                    "slug": "xy"
+                }
+            },
+            "artist": {
+                "id": 456,
+                "name": "Hideki Ishikawa",
+                "slug": "hideki-ishikawa"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/10821/magmar-gen-16-generations-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/generations/magmar-16",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/10730"
+            }
+        },
+        {
+            "id": 11679,
+            "name": "Magmar",
+            "name_numbered": "Magmar 10",
+            "slug": "magmar",
+            "card_code_number": "FFI 10",
+            "type": "singles",
+            "card_number": 10,
+            "hp": 80,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "xy3-10",
+            "cardmarket_id": 281674,
+            "tcgplayer_id": 92179,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.02,
+                    "lowest_near_mint_EU_only": 0.02,
+                    "lowest_near_mint_DE": 0.18,
+                    "lowest_near_mint_DE_EU_only": 0.18,
+                    "lowest_near_mint_FR": 0.07,
+                    "lowest_near_mint_FR_EU_only": 0.07,
+                    "lowest_near_mint_ES": 0.05,
+                    "lowest_near_mint_ES_EU_only": 0.05,
+                    "lowest_near_mint_IT": 0.02,
+                    "lowest_near_mint_IT_EU_only": 0.02,
+                    "30d_average": 0.15,
+                    "7d_average": 0.13,
+                    "available_items": 754,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.15,
+                    "mid_price": 0.17
+                }
+            },
+            "episode": {
+                "id": 84,
+                "name": "Furious Fists",
+                "slug": "furious-fists",
+                "released_at": "2014-08-13",
+                "logo": "https://images.tcggo.com/tcggo/storage/11763/furious-fists-logo.png",
+                "code": "FFI",
+                "cards_total": 114,
+                "cards_printed_total": 111,
+                "prices": {
+                    "cardmarket": {
+                        "total": 832.53,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 702.46,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 5,
+                    "name": "XY",
+                    "slug": "xy"
+                }
+            },
+            "artist": {
+                "id": 506,
+                "name": "MAHOU",
+                "slug": "mahou"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/11774/magmar-ffi-10-furious-fists-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/furious-fists/magmar-10-1",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/11679",
+                "tcgplayer": "https://www.tcggo.com/external/tcgplayer/11679"
+            }
+        },
+        {
+            "id": 13005,
+            "name": "Magmar",
+            "name_numbered": "Magmar 20",
+            "slug": "magmar",
+            "card_code_number": "DRX 20",
+            "type": "singles",
+            "card_number": 20,
+            "hp": 80,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "bw6-20",
+            "cardmarket_id": 280459,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.09,
+                    "lowest_near_mint_EU_only": 0.09,
+                    "lowest_near_mint_DE": 0.7,
+                    "lowest_near_mint_DE_EU_only": 0.7,
+                    "lowest_near_mint_FR": 0.1,
+                    "lowest_near_mint_FR_EU_only": 0.1,
+                    "lowest_near_mint_ES": 0.49,
+                    "lowest_near_mint_ES_EU_only": 0.49,
+                    "lowest_near_mint_IT": 0.04,
+                    "lowest_near_mint_IT_EU_only": 0.04,
+                    "30d_average": 0.22,
+                    "7d_average": 0.27,
+                    "available_items": 445,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.23,
+                    "mid_price": 0.22
+                }
+            },
+            "episode": {
+                "id": 96,
+                "name": "Dragons Exalted",
+                "slug": "dragons-exalted",
+                "released_at": "2012-08-15",
+                "logo": "https://images.tcggo.com/tcggo/storage/13089/dragons-exalted-logo.png",
+                "code": "DRX",
+                "cards_total": 128,
+                "cards_printed_total": 124,
+                "prices": {
+                    "cardmarket": {
+                        "total": 7304.89,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 2218.72,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 6,
+                    "name": "Black & White",
+                    "slug": "black-white"
+                }
+            },
+            "artist": {
+                "id": 484,
+                "name": "Kagemaru Himeno",
+                "slug": "kagemaru-himeno"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/13110/magmar-drx-20-dragons-exalted-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/dragons-exalted/magmar-20-1",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/13005"
+            }
+        },
+        {
+            "id": 13829,
+            "name": "Magmar",
+            "name_numbered": "Magmar 62",
+            "slug": "magmar",
+            "card_code_number": "CL 62",
+            "type": "singles",
+            "card_number": 62,
+            "hp": 70,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "col1-62",
+            "cardmarket_id": 279705,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.5,
+                    "lowest_near_mint_EU_only": 0.5,
+                    "lowest_near_mint_DE": 0.29,
+                    "lowest_near_mint_DE_EU_only": 0.29,
+                    "lowest_near_mint_FR": 0.49,
+                    "lowest_near_mint_FR_EU_only": 0.49,
+                    "lowest_near_mint_IT": 0.03,
+                    "lowest_near_mint_IT_EU_only": 0.03,
+                    "30d_average": 0.38,
+                    "7d_average": 0.36,
+                    "available_items": 547,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.26,
+                    "mid_price": 0.26
+                }
+            },
+            "episode": {
+                "id": 105,
+                "name": "Call of Legends",
+                "slug": "call-of-legends",
+                "released_at": "2011-02-09",
+                "logo": "https://images.tcggo.com/tcggo/storage/13888/call-of-legends-logo.png",
+                "code": "CL",
+                "cards_total": 106,
+                "cards_printed_total": 95,
+                "prices": {
+                    "cardmarket": {
+                        "total": 6946.03,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1682.33,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 7,
+                    "name": "HeartGold & SoulSilver",
+                    "slug": "heartgold-soulsilver"
+                }
+            },
+            "artist": {
+                "id": 600,
+                "name": "Hajime Kusajima",
+                "slug": "hajime-kusajima"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/13951/magmar-cl-62-call-of-legends-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/call-of-legends/magmar-62",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/13829"
+            }
+        },
+        {
+            "id": 13915,
+            "name": "Magmar",
+            "name_numbered": "Magmar 42",
+            "slug": "magmar",
+            "card_code_number": "TM 42",
+            "type": "singles",
+            "card_number": 42,
+            "hp": 70,
+            "rarity": "Uncommon",
+            "supertype": "Pokémon",
+            "tcgid": "hgss4-42",
+            "cardmarket_id": 279572,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.31,
+                    "lowest_near_mint_EU_only": 0.31,
+                    "lowest_near_mint_DE": 0.19,
+                    "lowest_near_mint_DE_EU_only": 0.19,
+                    "lowest_near_mint_FR": 0.99,
+                    "lowest_near_mint_FR_EU_only": 0.99,
+                    "lowest_near_mint_IT": 0.12,
+                    "lowest_near_mint_IT_EU_only": 0.12,
+                    "30d_average": 0.35,
+                    "7d_average": 0.32,
+                    "available_items": 296,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.4,
+                    "mid_price": 0.32
+                }
+            },
+            "episode": {
+                "id": 106,
+                "name": "HS—Triumphant",
+                "slug": "hs-triumphant",
+                "released_at": "2010-11-03",
+                "logo": "https://images.tcggo.com/tcggo/storage/13995/hs-triumphant-logo.png",
+                "code": "TM",
+                "cards_total": 103,
+                "cards_printed_total": 102,
+                "prices": {
+                    "cardmarket": {
+                        "total": 3750.51,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1382.97,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 7,
+                    "name": "HeartGold & SoulSilver",
+                    "slug": "heartgold-soulsilver"
+                }
+            },
+            "artist": {
+                "id": 488,
+                "name": "Masakazu Fukuda",
+                "slug": "masakazu-fukuda"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/14039/magmar-tm-42-hs-triumphant-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/hs-triumphant/magmar-42",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/13915"
+            }
+        },
+        {
+            "id": 14119,
+            "name": "Magmar",
+            "name_numbered": "Magmar 52",
+            "slug": "magmar",
+            "card_code_number": "UL 52",
+            "type": "singles",
+            "card_number": 52,
+            "hp": 70,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "hgss2-52",
+            "cardmarket_id": 279208,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.55,
+                    "lowest_near_mint_EU_only": 0.55,
+                    "lowest_near_mint_DE": 0.03,
+                    "lowest_near_mint_DE_EU_only": 0.03,
+                    "lowest_near_mint_FR": 0.3,
+                    "lowest_near_mint_FR_EU_only": 0.3,
+                    "lowest_near_mint_ES": 0.2,
+                    "lowest_near_mint_ES_EU_only": 0.2,
+                    "lowest_near_mint_IT": 0.03,
+                    "lowest_near_mint_IT_EU_only": 0.03,
+                    "30d_average": 0.24,
+                    "7d_average": 0.24,
+                    "available_items": 640,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.36,
+                    "mid_price": 0.34
+                }
+            },
+            "episode": {
+                "id": 108,
+                "name": "HS—Unleashed",
+                "slug": "hs-unleashed",
+                "released_at": "2010-05-12",
+                "logo": "https://images.tcggo.com/tcggo/storage/14193/hs-unleashed-logo.png",
+                "code": "UL",
+                "cards_total": 96,
+                "cards_printed_total": 95,
+                "prices": {
+                    "cardmarket": {
+                        "total": 895.27,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1260.85,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 7,
+                    "name": "HeartGold & SoulSilver",
+                    "slug": "heartgold-soulsilver"
+                }
+            },
+            "artist": {
+                "id": 600,
+                "name": "Hajime Kusajima",
+                "slug": "hajime-kusajima"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/14246/magmar-ul-52-hs-unleashed-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/hs-unleashed/magmar-52",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/14119"
+            }
+        },
+        {
+            "id": 14504,
+            "name": "Magmar",
+            "name_numbered": "Magmar 65",
+            "slug": "magmar",
+            "card_code_number": "SV 65",
+            "type": "singles",
+            "card_number": 65,
+            "hp": 70,
+            "rarity": "Uncommon",
+            "supertype": "Pokémon",
+            "tcgid": "pl3-65",
+            "cardmarket_id": 278756,
+            "tcgplayer_id": 87049,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.33,
+                    "lowest_near_mint_EU_only": 0.33,
+                    "lowest_near_mint_DE": 0.23,
+                    "lowest_near_mint_DE_EU_only": 0.23,
+                    "lowest_near_mint_FR": 0.2,
+                    "lowest_near_mint_FR_EU_only": 0.2,
+                    "30d_average": 0.31,
+                    "7d_average": 0.45,
+                    "available_items": 240,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.33,
+                    "mid_price": 0.38
+                }
+            },
+            "episode": {
+                "id": 113,
+                "name": "Supreme Victors",
+                "slug": "supreme-victors",
+                "released_at": "2009-08-19",
+                "logo": "https://images.tcggo.com/tcggo/storage/14572/supreme-victors-logo.png",
+                "code": "SV",
+                "cards_total": 153,
+                "cards_printed_total": 147,
+                "prices": {
+                    "cardmarket": {
+                        "total": 2091.09,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 1726.32,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 8,
+                    "name": "Platinum",
+                    "slug": "platinum"
+                }
+            },
+            "artist": {
+                "id": 478,
+                "name": "Midori Harada",
+                "slug": "midori-harada"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/14637/magmar-sv-65-supreme-victors-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/supreme-victors/magmar-65",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/14504",
+                "tcgplayer": "https://www.tcggo.com/external/tcgplayer/14504"
+            }
+        },
+        {
+            "id": 15447,
+            "name": "Magmar",
+            "name_numbered": "Magmar 93",
+            "slug": "magmar",
+            "card_code_number": "SW 93",
+            "type": "singles",
+            "card_number": 93,
+            "hp": 70,
+            "rarity": "Common",
+            "supertype": "Pokémon",
+            "tcgid": "dp3-93",
+            "cardmarket_id": 277846,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.08,
+                    "lowest_near_mint_EU_only": 0.08,
+                    "lowest_near_mint_DE": 0.05,
+                    "lowest_near_mint_DE_EU_only": 0.05,
+                    "lowest_near_mint_FR": 0.9,
+                    "lowest_near_mint_FR_EU_only": 0.9,
+                    "lowest_near_mint_ES": 0.07,
+                    "lowest_near_mint_ES_EU_only": 0.07,
+                    "lowest_near_mint_IT": 0.24,
+                    "lowest_near_mint_IT_EU_only": 0.24,
+                    "30d_average": 0.14,
+                    "7d_average": 0.16,
+                    "available_items": 894,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.28,
+                    "mid_price": 0.26
+                }
+            },
+            "episode": {
+                "id": 123,
+                "name": "Secret Wonders",
+                "slug": "secret-wonders",
+                "released_at": "2007-11-01",
+                "logo": "https://images.tcggo.com/tcggo/storage/15506/secret-wonders-logo.png",
+                "code": "SW",
+                "cards_total": 132,
+                "cards_printed_total": 132,
+                "prices": {
+                    "cardmarket": {
+                        "total": 704.71,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 916.7,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 10,
+                    "name": "Diamond & Pearl",
+                    "slug": "diamond-pearl"
+                }
+            },
+            "artist": {
+                "id": 556,
+                "name": "Ken Sugimori",
+                "slug": "ken-sugimori"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/15600/magmar-sw-93-secret-wonders-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/secret-wonders/magmar-93",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/15447"
+            }
+        },
+        {
+            "id": 15557,
+            "name": "Magmar",
+            "name_numbered": "Magmar 54",
+            "slug": "magmar",
+            "card_code_number": "MT 54",
+            "type": "singles",
+            "card_number": 54,
+            "hp": 70,
+            "rarity": "Uncommon",
+            "supertype": "Pokémon",
+            "tcgid": "dp2-54",
+            "cardmarket_id": 277683,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 0.2,
+                    "lowest_near_mint_EU_only": 0.2,
+                    "lowest_near_mint_DE": 0.19,
+                    "lowest_near_mint_DE_EU_only": 0.19,
+                    "lowest_near_mint_FR": 0.95,
+                    "lowest_near_mint_FR_EU_only": 0.95,
+                    "lowest_near_mint_ES": 0.99,
+                    "lowest_near_mint_ES_EU_only": 0.99,
+                    "lowest_near_mint_IT": 0.43,
+                    "lowest_near_mint_IT_EU_only": 0.43,
+                    "30d_average": 0.26,
+                    "7d_average": 0.21,
+                    "available_items": 340,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 0.35,
+                    "mid_price": 0.34
+                }
+            },
+            "episode": {
+                "id": 125,
+                "name": "Mysterious Treasures",
+                "slug": "mysterious-treasures",
+                "released_at": "2007-08-01",
+                "logo": "https://images.tcggo.com/tcggo/storage/15658/mysterious-treasures-logo.png",
+                "code": "MT",
+                "cards_total": 124,
+                "cards_printed_total": 123,
+                "prices": {
+                    "cardmarket": {
+                        "total": 584.37,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 529.93,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 10,
+                    "name": "Diamond & Pearl",
+                    "slug": "diamond-pearl"
+                }
+            },
+            "artist": {
+                "id": 375,
+                "name": "Mitsuhiro Arita",
+                "slug": "mitsuhiro-arita"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/15714/magmar-mt-54-mysterious-treasures-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/mysterious-treasures/magmar-54",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/15557"
+            }
+        },
+        {
+            "id": 16329,
+            "name": "Magmar",
+            "name_numbered": "Magmar 21",
+            "slug": "magmar",
+            "card_code_number": "LM 21",
+            "type": "singles",
+            "card_number": 21,
+            "hp": 70,
+            "rarity": "rare",
+            "supertype": "Pokémon",
+            "tcgid": "ex12-21",
+            "cardmarket_id": 276898,
+            "tcgplayer_id": null,
+            "prices": {
+                "cardmarket": {
+                    "currency": "EUR",
+                    "lowest_near_mint": 2.5,
+                    "lowest_near_mint_EU_only": 2.5,
+                    "lowest_near_mint_DE": 1,
+                    "lowest_near_mint_DE_EU_only": 1,
+                    "lowest_near_mint_FR": 36,
+                    "lowest_near_mint_FR_EU_only": 36,
+                    "lowest_near_mint_IT": 1,
+                    "lowest_near_mint_IT_EU_only": 1,
+                    "30d_average": 2.38,
+                    "7d_average": 2.36,
+                    "available_items": 147,
+                    "graded": []
+                },
+                "tcg_player": {
+                    "currency": "EUR",
+                    "market_price": 2.03,
+                    "mid_price": 2.24
+                }
+            },
+            "episode": {
+                "id": 137,
+                "name": "EX Legend Maker",
+                "slug": "ex-legend-maker",
+                "released_at": "2006-02-01",
+                "logo": "https://images.tcggo.com/tcggo/storage/16486/legend-maker-logo.png",
+                "code": "LM",
+                "cards_total": 93,
+                "cards_printed_total": 92,
+                "prices": {
+                    "cardmarket": {
+                        "total": 7416.89,
+                        "currency": "EUR"
+                    },
+                    "tcgplayer": {
+                        "total": 3174.98,
+                        "currency": "EUR"
+                    }
+                },
+                "game": {
+                    "name": "Pokémon",
+                    "slug": "pokemon"
+                },
+                "series": {
+                    "id": 11,
+                    "name": "EX",
+                    "slug": "ex"
+                }
+            },
+            "artist": {
+                "id": 530,
+                "name": "Sumiyoshi Kizuki",
+                "slug": "sumiyoshi-kizuki"
+            },
+            "image": "https://images.tcggo.com/tcggo/storage/16508/magmar-lm-21-legend-maker-pokemon.png",
+            "tcggo_url": "https://www.tcggo.com/pokemon/ex-legend-maker/magmar-21-1",
+            "links": {
+                "cardmarket": "https://www.tcggo.com/external/cm/16329"
+            }
+        }
+    ],
+    "paging": {
+        "current": 1,
+        "total": 2,
+        "per_page": 20
+    },
+    "results": 29
+}

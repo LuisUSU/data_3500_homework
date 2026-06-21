@@ -1,0 +1,48 @@
+{
+    "sealed_collection": {
+        "ETB Collection": {
+            "151 Elite Trainer Box": {
+                "name": "151 Elite Trainer Box",
+                "set_name": "151",
+                "code": "MEW",
+                "lowest_price": 425,
+                "30_Day_Price_Average": 406.31,
+                "7_Day Price_Average": 415.31
+            },
+            "Phantasmal Flames Elite Trainer Box": {
+                "name": "Phantasmal Flames Elite Trainer Box",
+                "set_name": "Phantasmal Flames",
+                "code": "PFL",
+                "lowest_price": 107,
+                "30_Day_Price_Average": 90.8,
+                "7_Day Price_Average": 105.66
+            },
+            "Mega Evolution: Mega Lucario Elite Trainer Box": {
+                "name": "Mega Evolution: Mega Lucario Elite Trainer Box",
+                "set_name": "Mega Evolution",
+                "code": "MEG",
+                "lowest_price": 95,
+                "30_Day_Price_Average": 89,
+                "7_Day Price_Average": 89.12
+            }
+        },
+        "Booster Pack Collection": {
+            "Evolutions Booster": {
+                "name": "Evolutions Booster",
+                "set_name": "Evolutions",
+                "code": "EVO",
+                "lowest_price": 49.99,
+                "30_Day_Price_Average": 65.97,
+                "7_Day Price_Average": 56.73
+            },
+            "BREAKpoint Booster": {
+                "name": "BREAKpoint Booster",
+                "set_name": "BREAKpoint",
+                "code": "BKP",
+                "lowest_price": 41.58,
+                "30_Day_Price_Average": 40.38,
+                "7_Day Price_Average": 39.31
+            }
+        }
+    }
+}
